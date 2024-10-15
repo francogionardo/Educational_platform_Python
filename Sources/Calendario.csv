@@ -1,0 +1,108 @@
+Date,Label,Week,Day
+20240823,"Algebra: De 08:00 hasta 12:00
+Química: De 12:00 hasta 14:00",1,sabado
+20240824,"Filosofía y Lógica: De 10:00 hasta 11:00
+Química: De 11:00 hasta 14:00
+Raz. Verbal: De 08:00 hasta 10:00",1,lunes
+20240826,"Economía y Cívica: De 13:00 hasta 14:00
+Geografía: De 12:00 hasta 13:00
+Geometría: De 08:00 hasta 12:00",1,martes
+20240827,"Aritmética: De 11:00 hasta 14:00
+Práctica: De 08:00 hasta 11:00",1,miercoles
+20240828,"Física: De 08:00 hasta 13:00
+Lenguaje y Literatura: De 13:00 hasta 14:00",1,jueves
+20240829,"Historia: De 10:00 hasta 11:00
+Raz. Matemático: De 08:00 hasta 10:00
+Trigonometría: De 11:00 hasta 14:00",1,viernes
+20240831,"Filosofía y Lógica: De 10:00 hasta 11:00
+Química: De 11:00 hasta 14:00
+Raz. Verbal: De 08:00 hasta 10:00",2,sabado
+20240902,"Economía y Cívica: De 13:00 hasta 14:00
+Geografía: De 12:00 hasta 13:00
+Geometría: De 08:00 hasta 12:00",2,lunes
+20240903,"Aritmética: De 11:00 hasta 14:00
+Práctica: De 08:00 hasta 11:00",2,martes
+20240904,"Física: De 08:00 hasta 13:00
+Historia: De 13:00 hasta 14:00",2,miercoles
+20240905,"Lenguaje y Literatura: De 10:00 hasta 11:00
+Química: De 12:00 hasta 14:00
+Raz. Matemático: De 08:00 hasta 10:00
+Trigonometría: De 11:00 hasta 12:00",2,jueves
+20240906,"Algebra: De 08:00 hasta 12:00
+Trigonometría: De 12:00 hasta 14:00",2,viernes
+20240907,"Filosofía y Lógica: De 10:00 hasta 11:00
+Química: De 11:00 hasta 14:00
+Raz. Verbal: De 08:00 hasta 10:00",3,sabado
+20240909,"Economía y Cívica: De 13:00 hasta 14:00
+Geografía: De 08:00 hasta 09:00
+Geometría: De 09:00 hasta 13:00",3,lunes
+20240910,"Aritmética: De 08:00 hasta 11:00
+Práctica: De 11:00 hasta 14:00",3,martes
+20240911,"Física: De 09:00 hasta 14:00
+Historia: De 08:00 hasta 09:00",3,miercoles
+20240912,"Lenguaje y Literatura: De 08:00 hasta 09:00
+Raz. Matemático: De 09:00 hasta 11:00
+Trigonometría: De 11:00 hasta 14:00",3,jueves
+20240913,"Algebra: De 08:00 hasta 12:00
+Química: De 12:00 hasta 14:00",3,viernes
+20240914,"Historia: De 10:00 hasta 11:00
+Química: De 11:00 hasta 14:00
+Raz. Verbal: De 08:00 hasta 10:00",4,sabado
+20240916,"Economía y Cívica: De 13:00 hasta 14:00
+Geografía: De 12:00 hasta 13:00
+Geometría: De 08:00 hasta 12:00",4,lunes
+20240917,"Aritmética: De 08:00 hasta 11:00
+Práctica: De 11:00 hasta 14:00",4,martes
+20240918,"Filosofía y Lógica: De 08:00 hasta 09:00
+Física: De 09:00 hasta 14:00",4,miercoles
+20240919,"Lenguaje y Literatura: De 10:00 hasta 11:00
+Raz. Matemático: De 08:00 hasta 10:00
+Trigonometría: De 11:00 hasta 14:00",4,jueves
+20240920,"Algebra: De 08:00 hasta 12:00
+Química: De 12:00 hasta 14:00",4,viernes
+20240921,"Filosofía y Lógica: De 10:00 hasta 11:00
+Química: De 11:00 hasta 14:00
+Raz. Verbal: De 08:00 hasta 10:00",5,sabado
+20240923,"Economía y Cívica: De 13:00 hasta 14:00
+Geografía: De 12:00 hasta 13:00
+Geometría: De 08:00 hasta 12:00",5,lunes
+20240924,"Aritmética: De 08:00 hasta 11:00
+Práctica: De 11:00 hasta 14:00",5,martes
+20240925,"Física: De 09:00 hasta 14:00
+Historia: De 08:00 hasta 09:00",5,miercoles
+20240926,"Lenguaje y Literatura: De 10:00 hasta 11:00
+Raz. Matemático: De 08:00 hasta 10:00
+Trigonometría: De 11:00 hasta 14:00",5,jueves
+20240927,"Algebra: De 08:00 hasta 12:00
+Química: De 12:00 hasta 14:00",5,viernes
+20240928,"Filosofía y Lógica: De 10:00 hasta 11:00
+Química: De 11:00 hasta 14:00
+Raz. Verbal: De 08:00 hasta 10:00",6,sabado
+20240930,"Geometría: De 08:00 hasta 12:00
+Raz. Matemático: De 12:00 hasta 14:00",6,lunes
+20241001,"Aritmética: De 08:00 hasta 11:00
+Práctica: De 11:00 hasta 14:00",6,martes
+20241002,"Física: De 09:00 hasta 14:00
+Historia: De 08:00 hasta 09:00",6,miercoles
+20241003,"Economía y Cívica: De 10:00 hasta 11:00
+Geografía: De 08:00 hasta 09:00
+Lenguaje y Literatura: De 09:00 hasta 10:00
+Trigonometría: De 11:00 hasta 14:00",6,jueves
+20241004,"Algebra: De 08:00 hasta 12:00
+Química: De 12:00 hasta 14:00",6,viernes
+20241005,"Filosofía y Lógica: De 10:00 hasta 11:00
+Química: De 11:00 hasta 14:00
+Raz. Verbal: De 08:00 hasta 10:00",7,sabado
+20241007,"Geometría: De 08:00 hasta 12:00
+Raz. Matemático: De 12:00 hasta 14:00",7,lunes
+20241008,Feriado,7,martes
+20241009,"Física: De 09:00 hasta 14:00
+Historia: De 08:00 hasta 09:00",7,miercoles
+20241010,"Economía y Cívica: De 10:00 hasta 11:00
+Geografía: De 08:00 hasta 09:00
+Lenguaje y Literatura: De 09:00 hasta 10:00
+Trigonometría: De 11:00 hasta 14:00",7,jueves
+20241011,"Algebra: De 08:00 hasta 12:00
+Química: De 12:00 hasta 14:00",7,viernes
+20241012,"Aritmética: De 08:00 hasta 11:00
+Práctica: De 11:00 hasta 14:00",8,sabado
