@@ -1,11 +1,11 @@
 import sys
 import platform
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QPushButton, QSlider, QHBoxLayout
-from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout
+from PyQt5.QtCore import Qt, QTimer
 import vlc
 
-from .topbar import TopBar
-from .downbar import DownBar
+from VideoPlayer.topbar import TopBar
+from VideoPlayer.downbar import DownBar
 
 
 class VideoPlayer(QMainWindow):
@@ -35,23 +35,6 @@ class VideoPlayer(QMainWindow):
         layout.addStretch(1)  # Space for video display
         layout.addWidget(self.down_bar)
 
-        # Playback speed control button
-        self.speed_button = QPushButton("1.0x", self)
-        self.speed_button.setStyleSheet("background-color: rgba(255, 255, 255, 0.5); color: black;")
-        self.speed_button.clicked.connect(self.change_speed)
-        layout.addWidget(self.speed_button)
-
-        # Opacity slider
-        self.opacity_slider = QSlider(Qt.Horizontal)
-        self.opacity_slider.setRange(50, 100)
-        self.opacity_slider.setValue(100)
-        self.opacity_slider.setStyleSheet("background-color: rgba(255, 255, 255, 0.5);")
-        self.opacity_slider.valueChanged.connect(self.adjust_opacity)
-        layout.addWidget(self.opacity_slider)
-
-        # Adjust the size of the player
-        self.setFixedSize(900, 500)
-
         # Set up the correct video output for Windows
         if platform.system() == "Windows":
             self.media_player.set_hwnd(int(self.winId()))
@@ -61,8 +44,26 @@ class VideoPlayer(QMainWindow):
         # Connect the play/pause button to toggle play/pause
         self.down_bar.play_button.clicked.connect(self.toggle_play_pause)
 
-        # Play video automatically on open
-        self.media_player.play()
+        # Timer for mouse movement detection to hide/show bars
+        self.timer = QTimer()
+        self.timer.setInterval(2000)  # 2 seconds
+        self.timer.timeout.connect(self.hide_controls)
+        self.setMouseTracking(True)
+
+        # Show controls when the mouse enters the window
+        self.main_widget.setMouseTracking(True)
+        self.main_widget.installEventFilter(self)
+
+        # Window resize and move functionalities
+        self.setMinimumSize(200, 150)
+        self.setMouseTracking(True)
+
+    def eventFilter(self, obj, event):
+        if event.type() == event.Enter:
+            self.show_controls()
+        elif event.type() == event.Leave:
+            self.hide_controls()
+        return super().eventFilter(obj, event)
 
     def toggle_play_pause(self):
         if self.media_player.is_playing():
@@ -70,33 +71,34 @@ class VideoPlayer(QMainWindow):
         else:
             self.media_player.play()
 
-    def change_speed(self):
-        """Cycle through playback speeds."""
-        current_speed = self.media_player.get_rate()
-        new_speed = 1.0  # Default speed
-        if current_speed == 1.0:
-            new_speed = 1.5
-        elif current_speed == 1.5:
-            new_speed = 2.0
-        elif current_speed == 2.0:
-            new_speed = 0.5
-        elif current_speed == 0.5:
-            new_speed = 1.0
+    # En la función show_controls:
+    def show_controls(self):
+        self.top_bar.show()
+        self.down_bar.show()
+        self.timer.start()
 
-        self.media_player.set_rate(new_speed)
-        self.speed_button.setText(f"{new_speed}x")
-
-    def adjust_opacity(self):
-        """Adjust video opacity based on slider."""
-        opacity = self.opacity_slider.value() / 100
-        self.setWindowOpacity(opacity)
+    # En la función hide_controls:
+    def hide_controls(self):
+        self.top_bar.hide()
+        self.down_bar.hide()
+        self.timer.stop()
 
     def closeEvent(self, event):
         self.media_player.stop()
 
-# Esta parte se elimina ya que se usa desde Clases.py
-# if __name__ == "__main__":
-#     app = QApplication(sys.argv)
-#     player = VideoPlayer("../Videos/GMT20240823-122814_Recording_1920x1080.mp4")
-#     player.show()
-#     sys.exit(app.exec_())
+    def mousePressEvent(self, event):
+        if event.button() == Qt.RightButton:
+            self.old_pos = event.globalPos()
+
+    def mouseMoveEvent(self, event):
+        if event.buttons() == Qt.RightButton:
+            delta = event.globalPos() - self.old_pos
+            self.move(self.x() + delta.x(), self.y() + delta.y())
+            self.old_pos = event.globalPos()
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    video_path = "Videos/GMT20240823-122814_Recording_1920x1080.mp4"  # Cambia esto por el video que desees probar
+    player = VideoPlayer(video_path)
+    player.show()
+    sys.exit(app.exec_())
