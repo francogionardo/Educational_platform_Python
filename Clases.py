@@ -198,8 +198,9 @@ class Clases(QWidget):
                     play_button.clicked.connect(lambda ch, path=video: self.play_video(path))
                     self.result_table.setCellWidget(row_position, 3, play_button)
 
+    # Dentro del método play_video de Clases.py
     def play_video(self, video_path):
-        """Inicia la reproducción del video en una ventana emergente"""
-        self.player = VideoPlayer(video_path)  # Crea una instancia de VideoPlayer con el video
-        self.player.show()  # Muestra la ventana del reproductor
+        self.player = VideoPlayer(video_path)  # Pasa la ruta del video como argumento
+        self.player.show()
+
 
