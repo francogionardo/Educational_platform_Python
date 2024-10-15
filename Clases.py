@@ -5,6 +5,8 @@ from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QComboBox, QPushButton
 from PyQt5.QtCore import QDate
 import os
 import glob
+from VideoPlayer.VideoPlayer import VideoPlayer
+
 
 class Clases(QWidget):
     def __init__(self):
@@ -197,5 +199,7 @@ class Clases(QWidget):
                     self.result_table.setCellWidget(row_position, 3, play_button)
 
     def play_video(self, video_path):
-        """ Placeholder method for video playback """
-        QMessageBox.information(self, "Reproducir Video", f"Reproduciendo: {video_path}")
+        """Inicia la reproducción del video en una ventana emergente"""
+        self.player = VideoPlayer(video_path)  # Crea una instancia de VideoPlayer con el video
+        self.player.show()  # Muestra la ventana del reproductor
+
