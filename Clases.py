@@ -1,12 +1,9 @@
-# Clases.py
-
+import subprocess
 import csv
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QComboBox, QPushButton, QMessageBox, QTableWidget, QTableWidgetItem, QHeaderView, QCalendarWidget, QCheckBox, QHBoxLayout
 from PyQt5.QtCore import QDate
 import os
 import glob
-from VideoPlayer.VideoPlayer import VideoPlayer
-
 
 class Clases(QWidget):
     def __init__(self):
@@ -158,18 +155,16 @@ class Clases(QWidget):
                 self.result_table.insertRow(row_position)
                 self.result_table.setItem(row_position, 0, QTableWidgetItem(date_selected))
                 
-                # Aquí estamos colocando datos genéricos en las columnas restantes, podrías personalizarlos.
-                # Ejemplo para un curso y horario de prueba
+                # Información de prueba para columnas adicionales
                 self.result_table.setItem(row_position, 1, QTableWidgetItem("Información no especificada"))
                 self.result_table.setItem(row_position, 2, QTableWidgetItem("Tema no especificado"))
 
                 # Botón de reproducción
                 play_button = QPushButton("Reproducir")
-                play_button.clicked.connect(lambda ch, path=video: self.play_video(path))
+                play_button.clicked.connect(lambda ch, path=video: self.play_video_with_potplayer(path))
                 self.result_table.setCellWidget(row_position, 3, play_button)
         else:
             QMessageBox.information(self, "Resultado", f"No se encontraron videos para la fecha {date_selected}.")
-
 
     def populate_result_table(self, date, data):
         """ Populate result table with search results """
@@ -195,12 +190,13 @@ class Clases(QWidget):
                     self.result_table.setItem(row_position, 2, QTableWidgetItem(topic))
 
                     play_button = QPushButton("Reproducir")
-                    play_button.clicked.connect(lambda ch, path=video: self.play_video(path))
+                    play_button.clicked.connect(lambda ch, path=video: self.play_video_with_potplayer(path))
                     self.result_table.setCellWidget(row_position, 3, play_button)
 
-    # Dentro del método play_video de Clases.py
-    def play_video(self, video_path):
-        self.player = VideoPlayer(video_path)  # Pasa la ruta del video como argumento
-        self.player.show()
-
-
+    def play_video_with_potplayer(self, video_path):
+        # Play the selected video with PotPlayer
+        potplayer_path = r"E:\Programs\PotPlayer\PotPlayerMini64.exe"  # Path to PotPlayer executable
+        try:
+            subprocess.Popen([potplayer_path, video_path])  # Use Popen instead of run
+        except Exception as e:
+            QMessageBox.critical(self, "Error", f"Error al abrir el video con PotPlayer: {e}")
