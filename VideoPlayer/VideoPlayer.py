@@ -6,8 +6,8 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout
 from PyQt5.QtCore import Qt, QPoint, QRect, QSize  # Agregar QSize aquí
 import vlc
 
-from .topbar import TopBar
-from .downbar import DownBar
+from .Topbar import TopBar
+from .Downbar import DownBar
 
 class VideoPlayer(QMainWindow):
     def __init__(self, video_path):

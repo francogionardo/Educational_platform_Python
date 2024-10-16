@@ -1,3 +1,3 @@
-from .topbar import TopBar
-from .downbar import DownBar
+from .Topbar import TopBar
+from .Downbar import DownBar
 from .VideoPlayer import VideoPlayer
