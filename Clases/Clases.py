@@ -34,7 +34,7 @@ class Clases(QWidget):
         self.ui.search_course_week_button.clicked.connect(self.search_by_course_and_week)
         self.ui.date_checkbox.stateChanged.connect(self.toggle_calendar)
         self.ui.search_date_button.clicked.connect(self.search_by_date)
-
+        
     def populate_courses(self):
         """ Populate the course combo box with available courses. """
         for course in self.course_data_manager.course_data.keys():
@@ -73,17 +73,22 @@ class Clases(QWidget):
 
         if matched_videos:
             for video in matched_videos:
+                # Retrieve the Label information for this date
+                label_info = self.course_data_manager.video_data.get(date_selected, {}).get('label', "Horario no disponible")
+
                 row_position = self.ui.result_table.rowCount()
                 self.ui.result_table.insertRow(row_position)
                 self.ui.result_table.setItem(row_position, 0, QTableWidgetItem(date_selected))
-                self.ui.result_table.setItem(row_position, 1, QTableWidgetItem("Información no especificada"))
+                self.ui.result_table.setItem(row_position, 1, QTableWidgetItem(label_info))  # Assign Label info to "Horario"
                 self.ui.result_table.setItem(row_position, 2, QTableWidgetItem("Tema no especificado"))
 
+                # Add play button
                 play_button = QPushButton("Reproducir")
                 play_button.clicked.connect(lambda ch, path=video: self.play_video_with_potplayer(path))
                 self.ui.result_table.setCellWidget(row_position, 3, play_button)
         else:
             QMessageBox.information(self, "Resultado", f"No se encontraron videos para la fecha {date_selected}.")
+
 
     def populate_result_table(self, date, data):
         label = data['label']
