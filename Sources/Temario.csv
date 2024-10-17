@@ -1,0 +1,436 @@
+Curso,Week,Tema,Descripcion,Path
+Algebra,1,NÚMEROS COMPLEJOS,"Forma binómica de un complejo. Conjugado, opuesto y módulo.
+Operaciones y teoremas.
+Forma exponencial, teorema de Moivre.",../Materials/Algebra/SEMANA 1
+Algebra,2,ECUACIONES POLINOMIALES,"Raíz de un polinomio y multiplicidad.
+Ecuaciones cuadráticas: teorema de Cardano, análisis de su discriminante y construcción de la ecuación. 
+Ecuación cúbica: resolución, teoremas de Cardano y paridad de raíces.
+Ecuación bicuadrada: resolución, propiedad de sus raíces y teorema de Cardano.",../Materials/Algebra/SEMANA 2
+Algebra,3,INECUACIONES,"Inecuación cuadrática: resolución. Teorema del trinomio positivo.
+Inecuación de grado superior: resolución y teoremas.
+Inecuación fraccionaria: teorema y resolución.",../Materials/Algebra/SEMANA 3
+Algebra,4,EXPRESIONES CON VALOR ABSOLUTO E IRRACIONALES,"Valor absoluto y propiedades.
+Ecuaciones con valor absoluto.
+Inecuaciones con valor absoluto.
+Ecuaciones irracionales.
+Inecuaciones irracionales.",../Materials/Algebra/SEMANA 4
+Algebra,5,FUNCIONES REALES Y GRAFICA DE FUNCIONES I,"Función real de variable real: definiciones, dominio y rango.
+Gráfica de una función (puntos de intercepto con los ejes coordenados y entre graficas de dos funciones).
+Gráfica de la función lineal y afín.
+Gráfica de la función cuadrática.",../Materials/Algebra/SEMANA 5
+Algebra,6,GRAFICA DE FUNCIONES II,"Gráfica de la función constante.
+Función valor absoluto.
+Función polinomial.
+Función raíz cuadrada.
+Función fraccionaria.",../Materials/Algebra/SEMANA 6
+Algebra,7,GRAFICA DE RELACIONES,"Gráficas de relaciones determinado por ecuaciones.
+Graficas de relaciones determinado por inecuaciones.
+Gráficas de relaciones en los complejos.",../Materials/Algebra/SEMANA 7
+Algebra,8,ALGEBRA DE FUNCIONES,"Igualdad de funciones.
+Función suma, diferencia, producto y cociente.
+Composición de funciones.",../Materials/Algebra/SEMANA 8
+Algebra,9,FUNCIÓN INVERSA,,../Materials/Algebra/SEMANA 9
+Algebra,10,FUNCION EXPONENCIAL Y LOGARÍTMICA,,../Materials/Algebra/SEMANA 10
+Algebra,11,SUCESIONES REALES,,../Materials/Algebra/SEMANA 11
+Algebra,12,SERIES,,../Materials/Algebra/SEMANA 12
+Algebra,13,MATRICES,,../Materials/Algebra/SEMANA 13
+Algebra,14,DETERMINANTE,,../Materials/Algebra/SEMANA 14
+Algebra,15,MATRIZ INVERSA,,../Materials/Algebra/SEMANA 15
+Algebra,16,SISTEMA DE ECUACIONES,,../Materials/Algebra/SEMANA 16
+Algebra,17,PROGRAMACIÓN LINEAL,,../Materials/Algebra/SEMANA 17
+Aritmetica,1,RAZONES Y PROPORCIONES,"Aplicaciones de las razones geométricas.
+Proporción (Aritmética y Geométrica).
+Igualdad de las razones Geométricas.",../Materials/Aritmetica/SEMANA 1
+Aritmetica,2,MAGNITUDES PROPORCIONALES,"Relación de proporcionalidad (directa e inversa).
+Gráfica de magnitudes directa e inversa.
+Propiedades de las relaciones entre magnitudes.
+Aplicaciones de magnitudes proporcionales.
+(Reparto proporcional, Regla de compañía, Sistema de engranajes, Problemas de obreros y obra).",../Materials/Aritmetica/SEMANA 2
+Aritmetica,3,PROMEDIOS Y TANTO POR CIENTO,"Promedios (MA, MG y MH). Propiedades de promedios.
+Aumentos y descuentos sucesivos.
+Aplicaciones comerciales (incluye IGV).",../Materials/Aritmetica/SEMANA 3
+Aritmetica,4,REGLA DE MEZCLA,"Mezcla de ingredientes teniendo en cuenta sus precios.
+Mezcla alcohólica y mezclas en otros contextos (%).
+Aleación: ley, liga, kilate y densidad media.",../Materials/Aritmetica/SEMANA 4
+Aritmetica,5,REGLA DE INTERES,"Interés simple.
+Interés compuesto, tasa efectiva y amortizaciones sobre saldo deudor.
+Interés continuo, problemas con crecimiento poblacional.",../Materials/Aritmetica/SEMANA 5
+Aritmetica,6,REGLA DE DESCUENTO,"Descuento comercial, descuento racional.
+Propiedades del descuento.
+Cambios de letra.
+Vencimiento común.",../Materials/Aritmetica/SEMANA 6
+Aritmetica,7,TEORIA DE CONJUNTOS,"Determinación de conjuntos. Relaciones entre conjuntos.
+Conjuntos especiales (conjunto potencia, equipotentes y conjunto producto).
+Problemas contextualizados de operaciones de conjuntos.
+Leyes del álgebra de conjuntos.",../Materials/Aritmetica/SEMANA 7
+Aritmetica,8,NUMERACIÓN," Representación literal (cantidad de numerales), capicúa.
+Cambios de base.
+ Propiedades: Cifras máximas e Intervalo de un numeral.
+Cambio de base especial.",../Materials/Aritmetica/SEMANA 8
+Aritmetica,9,OPERACIONES FUNDAMENTALES,,../Materials/Aritmetica/SEMANA 9
+Aritmetica,10,SUCESIONES,,../Materials/Aritmetica/SEMANA 10
+Aritmetica,11,TEORIA DE DIVISIBILIDAD,,../Materials/Aritmetica/SEMANA 11
+Aritmetica,12,NUMEROS PRIMOS Y COMPUESTOS,,../Materials/Aritmetica/SEMANA 12
+Aritmetica,13,MAXIMO COMUN DIVISOR Y MINIMO COMUN MULTIPLO,,../Materials/Aritmetica/SEMANA 13
+Aritmetica,14,NUMEROS RACIONALES,,../Materials/Aritmetica/SEMANA 14
+Aritmetica,15,ESTADÍSTICA,,../Materials/Aritmetica/SEMANA 15
+Aritmetica,16,ANALISIS COMBINATORIO,,../Materials/Aritmetica/SEMANA 16
+Aritmetica,17,TEORÍA DE PROBABILIDADES,,../Materials/Aritmetica/SEMANA 17
+Geografia,1,CARTOGRAFÍA,"Coordenadas geográficas: latitud y longitud. Características. 
+Elementos cartográficos: proyecciones, signos convencionales, escalas.",../Materials/Geografia/SEMANA 1
+Geografia,2,CALENTAMIENTO GLOBAL,"Diferencias entre efecto invernadero y calentamiento global.
+Causas y consecuencias del calentamiento global y su impacto en el Perú. 
+Protocolo de Kioto. Acuerdo de Paris. Características.",../Materials/Geografia/SEMANA 2
+Geografia,3,CLIMA DEL PERÚ,"Los climas de la Costa y sus factores climáticos: corrientes marinas.
+Los climas en la región andina, el factor altitud (cordillera de los Andes).
+El clima de la Selva y el factor latitud.",../Materials/Geografia/SEMANA 3
+Geografia,4,RELIEVE COSTERO,"Factores que influyen en el aspecto desértico de la costa.
+Características de los principales relieves: valles costeros, pampas, desiertos, tablazos, estribaciones andinas y lomas costeras.
+Formas de aprovechamiento y localización departamental de los principales relieves de la costa: valle, pampa, estribación andina, tablazo y desierto. ",../Materials/Geografia/SEMANA 4
+Geografia,5,RELIEVE ANDINO Y AMAZONICO,"La cordillera de los Andes: importancia climática, hidrográfica y económica.
+Características generales de los relieves de la región andina: valles interandinos, abras y mesetas.  
+Características generales de los relieves de la región amazónica: Selva baja: descripción general de las restingas, altos tahuampas, barrizales.",../Materials/Geografia/SEMANA 5
+Geografia,6,MANEJO DE CUENCAS,"Elementos de una cuenca.
+Desarrollo integral e importancia de la cuenca, el concepto de manejo de cuencas: tipos de obras hidráulicas.
+Actividades humanas en la cuenca: cabecera de cuenca, cuenca media y cuenca baja.
+Problemas asociados al uso inadecuado de la cuenca: deforestación y contaminación: causas.",../Materials/Geografia/SEMANA 6
+Geografia,7,VERTIENTES HIDROGRAFICAS,"Distribución del agua en el Perú: distribución porcentual por vertientes.
+Características de la vertiente hidrográfica del Pacifico: régimen, cuenca y dirección (Rímac/Majes).
+Características de la vertiente hidrográfica del Amazonas: régimen, cuenca y dirección (Marañón/ Ucayali/ Amazonas).",../Materials/Geografia/SEMANA 7
+Geografia,8,MAR PERUANO,"Declaración de las 200 millas y los límites marítimos.
+Características: color, temperatura y salinidad.
+Factores de riqueza del mar peruano: afloramiento, amplitud del zócalo, corrientes marinas (corriente peruana y corriente de El Niño).",../Materials/Geografia/SEMANA 8
+Geografia,9,RECURSOS NATURALES,,../Materials/Geografia/SEMANA 9
+Geografia,10,OCHO REGIONES NATURALES,,../Materials/Geografia/SEMANA 10
+Geografia,11,ONCE ECORREGIONES,,../Materials/Geografia/SEMANA 11
+Geografia,12,AREAS NATURALES PROTEGIDAS,,../Materials/Geografia/SEMANA 12
+Geografia,13,FENÓMENOS Y DESASTRES NATURALES,,../Materials/Geografia/SEMANA 13
+Geografia,14,POBLACIÓN PERUANA I,,../Materials/Geografia/SEMANA 14
+Geografia,15,POBLACIÓN PERUANA II,,../Materials/Geografia/SEMANA 15
+Geografia,16,ACTIVIDADES ECONOMICAS,,../Materials/Geografia/SEMANA 16
+Geografia,17,GEOGRAFIA POLÍTICA,,../Materials/Geografia/SEMANA 17
+Fisica,1,"ANÁLISIS DIMENSIONAL, VECTORES Y CINEMÁTICA I","Análisis dimensional.
+Vectores-Producto escalar y vectorial.
+MRU-MRUV-MVCL y MPCL.",../Materials/Fisica/SEMANA 1
+Fisica,2,CINEMÁTICA II,"Movimiento circunferencial uniforme (MCU).
+Movimiento circunferencial uniformemente variado (MCUV).
+Gráficas del movimiento mecánico.",../Materials/Fisica/SEMANA 2
+Fisica,3,ESTÁTICA–DINÁMICA,"Primera condición de equilibrio.
+Segunda condición de equilibrio.
+Dinámica rectilínea.
+Dinámica circunferencial.",../Materials/Fisica/SEMANA 3
+Fisica,4,TRABAJO Y ENERGÍA,"Trabajo mecánico.
+Relación entre el trabajo mecánico y la energía mecánica.
+Potencia mecánica y eficiencia.",../Materials/Fisica/SEMANA 4
+Fisica,5,IMPULSO Y CANTIDAD DE MOVIMIENTO,"Relación entre el impulso y la cantidad de movimiento.
+Conservación de la cantidad de movimiento con sistemas de cuerpos y   choques.
+Choques (con coeficiente de restitución en una y dos dimensiones).",../Materials/Fisica/SEMANA 5
+Fisica,6,GRAVITACIÓN UNIVERSAL,"Ley de gravitación universal.
+Leyes de Kepler.
+Energía potencial gravitatoria, energía mecánica.",../Materials/Fisica/SEMANA 6
+Fisica,7,MOVIMIENTO ARMÓNICO SIMPLE,"Movimiento armónico simple (MAS).
+Péndulo simple.",../Materials/Fisica/SEMANA 7
+Fisica,8,ONDAS MECÁNICAS,"  Función de onda.
+  Fenómenos ondulatorios.
+  Ondas estacionarias.
+  Onda Sonora.",../Materials/Fisica/SEMANA 8
+Fisica,9,HIDROSTÁTICA–FENÓMENOS TÉRMICOS,,../Materials/Fisica/SEMANA 9
+Fisica,10,TERMODINÁMICA,,../Materials/Fisica/SEMANA 10
+Fisica,11,ELECTROSTÁTICA I,,../Materials/Fisica/SEMANA 11
+Fisica,12,ELECTROSTÁTICA II,,../Materials/Fisica/SEMANA 12
+Fisica,13,ELECTRODINÁMICA,,../Materials/Fisica/SEMANA 13
+Fisica,14,ELECTROMAGNETISMO I,,../Materials/Fisica/SEMANA 14
+Fisica,15,ELECTROMAGNETISMO II,,../Materials/Fisica/SEMANA 15
+Fisica,16,ÓPTICA,,../Materials/Fisica/SEMANA 16
+Fisica,17,OEM–FÍSICA MODERNA,,../Materials/Fisica/SEMANA 17
+Geometria,1,TRIÁNGULOS,"Teoremas fundamentales y adicionales. Clasificación de triángulos.
+Desigualdades en los triángulos oblicuángulos, observaciones en triángulos isósceles y equiláteros.
+Líneas notables y ángulo entre bisectrices.",../Materials/Geometria/SEMANA 1
+Geometria,2,CONGRUENCIA DE TRIÁNGULOS,"Criterios de congruencia.
+Teorema de la bisectriz y la mediatriz.
+Teorema de la base media y la mediana relativa a la hipotenusa.
+Triángulos rectángulos notables y aproximados, observaciones adicionales.",../Materials/Geometria/SEMANA 2
+Geometria,3,CUADRILÁTEROS,"Trapezoide simétrico y asimétrico.
+Trapecio escaleno, rectángulo e isósceles.
+Paralelogramo (romboide, rombo, rectángulo y cuadrado).",../Materials/Geometria/SEMANA 3
+Geometria,4,CIRCUNFERENCIA,"Ángulos y teoremas en la circunferencia.
+Posiciones relativas entre dos circunferencias coplanarias.
+Cuadrilátero inscrito e inscriptible, teorema de Poncelet y de Pithot.",../Materials/Geometria/SEMANA 4
+Geometria,5,PUNTOS NOTABLES,"Baricentro, incentro y excentro.
+Ortocentro y circuncentro. Recta de Simpson.
+Recta de Euler.  Triángulos especiales (mediano, órtico).",../Materials/Geometria/SEMANA 5
+Geometria,6,PROPORCIONALIDAD,"Teorema de Thales y corolarios. 
+Teorema de la bisectriz interior, de la exterior, de Menelao, de Ceva.
+La división armónica.",../Materials/Geometria/SEMANA 6
+Geometria,7,SEMEJANZA,"Semejanza de triángulos.
+Teorema de la antiparalela y teoremas asociados a la semejanza.
+Otros resultados – Homotecia - Pappus.",../Materials/Geometria/SEMANA 7
+Geometria,8,RELACIONES MÉTRICAS I,"Relaciones métricas en el triángulo rectángulo.
+Relaciones métricas en la circunferencia.",../Materials/Geometria/SEMANA 8
+Geometria,9,RELACIONES MÉTRICAS II,,../Materials/Geometria/SEMANA 9
+Geometria,10,ÁREAS DE REGIONES PLANAS I,,../Materials/Geometria/SEMANA 10
+Geometria,11,ÁREAS DE REGIONES PLANAS II,,../Materials/Geometria/SEMANA 11
+Geometria,12,GEOMETRÍA DEL ESPACIO I,,../Materials/Geometria/SEMANA 12
+Geometria,13,GEOMETRÍA DEL ESPACIO II,,../Materials/Geometria/SEMANA 13
+Geometria,14,PRISMA Y CILINDRO,,../Materials/Geometria/SEMANA 14
+Geometria,15,PIRÁMIDE Y CONO,,../Materials/Geometria/SEMANA 15
+Geometria,16,ESFERA Y SUPERFICIE ESFÉRICA,,../Materials/Geometria/SEMANA 16
+Geometria,17,TEOREMAS DE PAPPUS GULDIN Y ANALÍTICA,,../Materials/Geometria/SEMANA 17
+Quimica,1,MODELO ACTUAL DEL ÁTOMO Y CONFIGURACIÓN ELECTRÓNICA,"Concepto de átomo, partes del átomo. Partículas subatómicas principales.  Núclido, número atómico y número de Masa e isotopo.
+Estructura electrónica, los cuatro números cuánticos expresadas en cuadro. 
+Principios de la configuración electrónica: Aufbau, exclusión de Pauli y de máxima multiplicidad. Anomalías de la configuración electrónica.
+Configuración electrónica de iones, paramagnetismo y diamagnetismo (análisis cualitativo).",../Materials/Quimica/SEMANA 1
+Quimica,2,TABLA PERIÓDICA MODERNA,"Ley periódica moderna, descripción de la tabla: periodo, grupo, clasificación de los elementos por sus propiedades: metales, semimetales, no metales.
+Clasificación de los elementos por bloques (s, p,d,f) y ubicación de los elementos en la tabla periódica a partir del número atómico. 
+ Propiedades periódicas: radio atómico, energía de ionización, afinidad electrónica, electronegatividad (no incluir excepciones). ",../Materials/Quimica/SEMANA 2
+Quimica,3,ENLACE QUÍMICO,"Concepto de enlace químico, descripción gráfica de la formación del enlace químico, electrón de valencia y notación de Lewis. Clasificación general: Enlace iónico, covalente y metálico.
+Enlace iónico, estructura de Lewis. Enlace metálico (modelo del mar de electrones).
+Enlace Covalente: normal, coordinado, simple, múltiple, sigma, pi, apolar y apolar (momento dipolar). Estructura de Lewis de sustancias moleculares, resonancia.
+Cuadro comparativo de propiedades físicas de las sustancias iónicas, moleculares y metálicas.",../Materials/Quimica/SEMANA 3
+Quimica,4,HIBRIDACIÓN Y GEOMETRÍA MOLECULAR,"Hibridación: sp, sp2, sp3 (explicar un caso y las demás con regla práctica a partir de la estructura de Lewis, incluir como observación hibridación sp3d y sp3d2).
+Geometría molecular y electrónica en base a la teoría de repulsión de pares electrónicos de la capa de valencia (TRPECV).
+Polaridad molecular, momento dipolar resultante.
+Reglas básicas para reconocer si la molécula es polar o apolar.",../Materials/Quimica/SEMANA 4
+Quimica,5,FUERZAS INTERMOLECULARES,"Concepto y característica de las fuerzas intermoleculares.
+Tipos de fuerza intermoleculares: fuerzas de van der Waals (dipolo – dipolo y London) y Enlace puente de hidrógeno.
+Relación directa de las fuerzas intermoleculares con el punto de ebullición de las sustancias moleculares.",../Materials/Quimica/SEMANA 5
+Quimica,6,NOMENCLATURA INORGÁNICA,"Estado de oxidación y reglas prácticas para su determinación.
+Óxidos, hidruro metálico, hidrácido, ácidos hidrácidos y oxoácidos (formulación directa, sin reacciones). Hidróxido.
+Cationes y aniones, sales haloideas, oxisales y sales acidas",../Materials/Quimica/SEMANA 6
+Quimica,7,ESTADO GASEOSO,"Concepto de estado gaseoso, propiedades generales, variables de estado, ecuación universal para gases ideales, Ley de Avogadro, condiciones normales, ecuación general y procesos restringidos.
+Mezcla gaseosa, fracción molar, Ley de las presiones parciales, Ley de volúmenes parciales.  Gas húmedo, humedad relativa.
+Difusión y efusión gaseoso (ley de Graham).",../Materials/Quimica/SEMANA 7
+Quimica,8,REACCIONES QUÍMICAS,"Concepto de: reacción química y ecuación química y significado de coeficiente estequiométrico.
+Clasificación de las reacciones químicas: síntesis, descomposición, desplazamiento simple, doble desplazamiento, isomerización, endotérmica, exotérmicas, redox y no redox.
+Balance de ecuaciones químicas métodos: tanteo, cambio de estado de oxidación y ión electrón (ácido-básico).",../Materials/Quimica/SEMANA 8
+Quimica,9,ESTEQUIOMETRÍA,,../Materials/Quimica/SEMANA 9
+Quimica,10,SOLUCIONES,,../Materials/Quimica/SEMANA 10
+Quimica,11,EQUILIBRIO QUÍMICO,,../Materials/Quimica/SEMANA 11
+Quimica,12,ÁCIDOS Y BASES,,../Materials/Quimica/SEMANA 12
+Quimica,13,CELDAS GALVÁNICA,,../Materials/Quimica/SEMANA 13
+Quimica,14,ELECTRÓLISIS,,../Materials/Quimica/SEMANA 14
+Quimica,15,QUÍMICA ORGÁNICA: HIDROCARBUROS ALIFÁTICOS Y AROMÁTICOS,,../Materials/Quimica/SEMANA 15
+Quimica,16,FUNCIONES OXIGENADAS Y NITROGENADAS,,../Materials/Quimica/SEMANA 16
+Quimica,17,ECOLOGÍA Y CONTAMINACIÓN AMBIENTAL,,../Materials/Quimica/SEMANA 17
+Raz. Matematico,1,ORDENAMIENTO DE INFORMACIÓN,"Ordenamientos temporales.
+Ordenamientos espaciales lineales.
+Ordenamientos espaciales circulares.
+Ordenamientos de información por categorías.",../Materials/Raz. Matematico/SEMANA 1
+Raz. Matematico,2,ARREGLOS NUMÉRICOS,"Arreglos con diversas condiciones.
+Cuadrados mágicos.",../Materials/Raz. Matematico/SEMANA 2
+Raz. Matematico,3,PSICOTÉCNICO,"Sucesiones numéricas y literales.
+Distribuciones numéricas.
+Sucesiones gráficas.
+Analogías de figuras.
+Figuras discordantes.",../Materials/Raz. Matematico/SEMANA 3
+Raz. Matematico,4,RAZONAMIENTO INDUCTIVO Y DEDUCTIVO,"Razonamiento Inductivo numérico.
+Razonamiento Inductivo verbal.
+Cifras terminales.
+Reconstrucción de operaciones fundamentales.",../Materials/Raz. Matematico/SEMANA 4
+Raz. Matematico,5,OPERACIONES MATEMÁTICAS I,"Operaciones matemáticas con reglas de definición arbitraria explícita.
+Operaciones matemáticas con reglas de definición arbitraria implícita.
+Operaciones matemáticas mediante tablas de doble entrada.",../Materials/Raz. Matematico/SEMANA 5
+Raz. Matematico,6,OPERACIONES MATEMÁTICAS II,"Propiedad de la cerradura o clausura.
+Propiedad conmutativa.
+Elemento neutro.
+Elemento inverso.",../Materials/Raz. Matematico/SEMANA 6
+Raz. Matematico,7,LÓGICA PROPOSICIONAL,"Tablas de verdad.
+Resolución de problemas con conectores lógicos.
+Aplicación de las leyes.",../Materials/Raz. Matematico/SEMANA 7
+Raz. Matematico,8,LÓGICA DE CLASES,"Representación gráfica de las proposiciones categóricas.
+Negación de proposiciones.
+Silogismos.",../Materials/Raz. Matematico/SEMANA 8
+Raz. Matematico,9,VERDADES Y MENTIRAS,,../Materials/Raz. Matematico/SEMANA 9
+Raz. Matematico,10,PARENTESCOS Y CERTEZAS,,../Materials/Raz. Matematico/SEMANA 10
+Raz. Matematico,11,CONTEO DE FIGURAS,,../Materials/Raz. Matematico/SEMANA 11
+Raz. Matematico,12,RAZONAMIENTO ABSTRACTO,,../Materials/Raz. Matematico/SEMANA 12
+Raz. Matematico,13,PLANTEO DE ECUACIONES I,,../Materials/Raz. Matematico/SEMANA 13
+Raz. Matematico,14,PLANTEO DE ECUACIONES II,,../Materials/Raz. Matematico/SEMANA 14
+Raz. Matematico,15,SITUACIONES ARITMÉTICAS,,../Materials/Raz. Matematico/SEMANA 15
+Raz. Matematico,16,ANÁLISIS E INTERPRETACIÓN DE GRÁFICOS ESTADÍSTICOS,,../Materials/Raz. Matematico/SEMANA 16
+Raz. Matematico,17,SUFICIENCIA DE DATOS,,../Materials/Raz. Matematico/SEMANA 17
+Raz. Verbal,1,DEFINICIONES Y PRECISIÓN LÉXICA,"Pautas para resolver ejercicios de definiciones y precisión léxica.
+Ejercicio de aplicación.
+Ejercicio de léxico N° 1.",../Materials/Raz. Verbal/SEMANA 1
+Raz. Verbal,2,ANTONIMIA CONTEXTUAL,"Pautas para resolver ejercicios de antonimia contextual.
+Ejercicios de aplicación.
+Ejercicio de léxico N° 2.",../Materials/Raz. Verbal/SEMANA 2
+Raz. Verbal,3,ANALOGÍAS,"Pautas para resolver ejercicios de analogías.
+Ejercicios de aplicación.
+Ejercicio de léxico N° 3.",../Materials/Raz. Verbal/SEMANA 3
+Raz. Verbal,4,CONECTORES LÓGICOS I,"Pautas para resolver ejercicios de conectores lógicos.
+Ejercicios de aplicación.
+Ejercicios complementarios: definiciones y precisión léxica.
+Ejercicios de léxico N° 4.",../Materials/Raz. Verbal/SEMANA 4
+Raz. Verbal,5,CONECTORES LÓGICOS II,"Pautas para resolver ejercicios de conectores lógicos.
+Ejercicios de aplicación.
+Ejercicios complementarios: antonimia contextual.
+Ejercicio de léxico N° 5.",../Materials/Raz. Verbal/SEMANA 5
+Raz. Verbal,6,PRIMERA PRÁCTICA DE REFORZAMIENTO,"Definiciones y precisión léxica.
+Antonimia contextual y analogías.
+conectores lógicos.
+ejercicio de léxico N° 6.",../Materials/Raz. Verbal/SEMANA 6
+Raz. Verbal,7,JERARQUÍA TEXTUAL,"Pautas para identificar el tema central y la idea principal de los textos.
+Ejercicios de aplicación.
+Ejercicios complementarios de analogías.
+Ejercicios de léxico N° 7.",../Materials/Raz. Verbal/SEMANA 7
+Raz. Verbal,8,MÉTODO Y TÉCNICAS DE LECTURA,"Método y técnicas de lectura (el subrayado).
+Ejercicios de aplicación.
+Ejercicios complementarios: conectores lógicos.
+Ejercicio de léxico N° 8.",../Materials/Raz. Verbal/SEMANA 8
+Raz. Verbal,9,TIPOS DE PREGUNTAS DE COMPRENSIÓN LECTORA I,,../Materials/Raz. Verbal/SEMANA 9
+Raz. Verbal,10,TIPOS DE PREGUNTAS DE COMPRENSIÓN LECTORA II,,../Materials/Raz. Verbal/SEMANA 10
+Raz. Verbal,11,SEGUNDA PRÁCTICA DE REFORZAMIENTO,,../Materials/Raz. Verbal/SEMANA 11
+Raz. Verbal,12,TEXTOS CONTINUOS Y DISCONTINUOS,,../Materials/Raz. Verbal/SEMANA 12
+Raz. Verbal,13,INFORMACIÓN ELIMINADA,,../Materials/Raz. Verbal/SEMANA 13
+Raz. Verbal,14,PLAN DE REDACCIÓN Y COHESIÓN TEXTUAL,,../Materials/Raz. Verbal/SEMANA 14
+Raz. Verbal,15,INCLUSIÓN DE ENUNCIADOS,,../Materials/Raz. Verbal/SEMANA 15
+Raz. Verbal,16,TERCERA PRÁCTICA DE REFORZAMIENTO,,../Materials/Raz. Verbal/SEMANA 16
+Raz. Verbal,17,CUARTA PRÁCTICA DE REFORZAMIENTO,,../Materials/Raz. Verbal/SEMANA 17
+Trigonometria,1,RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS,"Razones trigonométricas de un ángulo agudo, triángulos rectángulos notables.
+Casos de resolución de triángulos rectángulos.",../Materials/Trigonometria/SEMANA 1
+Trigonometria,2,RAZONES TRIGONOMÉTRICAS DE UN ÁNGULO EN POSICIÓN NORMAL,"Definición de las R.T. de ángulos en posición normal.
+Signos de las R.T en los cuadrantes.",../Materials/Trigonometria/SEMANA 2
+Trigonometria,3,IDENTIDADES TRIGONOMÉTRICAS I,"Identidades fundamentales.
+Identidades de arcos compuestos y auxiliares.",../Materials/Trigonometria/SEMANA 3
+Trigonometria,4,IDENTIDADES TRIGONOMÉTRICAS II,"Identidades del arco doble y arco triple.
+Transformaciones trigonométricas.",../Materials/Trigonometria/SEMANA 4
+Trigonometria,5,CIRCUNFERENCIA TRIGONOMÉTRICA I,"Definición del seno y coseno de un arco en la CT.
+Definición de la tangente y cotangente de un arco CT.",../Materials/Trigonometria/SEMANA 5
+Trigonometria,6,CIRCUNFERENCIA TRIGONOMÉTRICA II,"Variación de seno y coseno de un arco.
+Variación de tangente y cotangente de un arco.",../Materials/Trigonometria/SEMANA 6
+Trigonometria,7,FUNCIONES TRIGONOMÉTRICAS I,"Dominio y rango de una función.
+Estudio de las gráficas de la función seno y coseno.",../Materials/Trigonometria/SEMANA 7
+Trigonometria,8,FUNCIONES TRIGONOMÉTRICAS II,"Estudio de la gráfica del senoide y cosenoide.
+Dominio y rango de las funciones tangente, cotangente.
+Estudio de las gráficas de las funciones tangente, cotangente.",../Materials/Trigonometria/SEMANA 8
+Trigonometria,9,FUNCIONES INVERSAS I,,../Materials/Trigonometria/SEMANA 9
+Trigonometria,10,FUNCIONES INVERSAS II,,../Materials/Trigonometria/SEMANA 10
+Trigonometria,11,ECUACIONES TRIGONOMÉTRICAS,,../Materials/Trigonometria/SEMANA 11
+Trigonometria,12,RESOLUCIÓN DE TRIÁNGULOS OBLICUÁNGULOS,,../Materials/Trigonometria/SEMANA 12
+Trigonometria,13,CÓNICAS I,,../Materials/Trigonometria/SEMANA 13
+Trigonometria,14,CÓNICAS II,,../Materials/Trigonometria/SEMANA 14
+Trigonometria,15,CÓNICAS III,,../Materials/Trigonometria/SEMANA 15
+Trigonometria,16,TRANSFORMACIÓN DE COORDENADAS,,../Materials/Trigonometria/SEMANA 16
+Trigonometria,17,COORDENADAS POLARES,,../Materials/Trigonometria/SEMANA 17
+Historia,1,COMUNIDAD PRIMITIVA,"Paleolítico y mesolítico: características.
+Neolítico características (revolución agrícola y urbana).",../Materials/Historia/SEMANA 1
+Historia,2,COMUNIDAD PRIMITIVA EN EL PERÚ," Período lítico: restos e importancia.
+ Período Arcaico inferior y superior: restos e importancia.",../Materials/Historia/SEMANA 2
+Historia,3,ROMA," Ubicación.
+ Proceso histórico: república e imperio.
+ Aportes culturales.",../Materials/Historia/SEMANA 3
+Historia,4,FORMATIVO," Teoría sobre las altas culturas.
+ Formativo: definición y características principales.
+ Chavín: principales aportes culturales.",../Materials/Historia/SEMANA 4
+Historia,5,PRIMER DESARROLLO REGIONAL," Moche.
+ Nazca.
+ Tiahuanaco.",../Materials/Historia/SEMANA 5
+Historia,6,FEUDALISMO," Características: economía, política, sociedad y cultura.
+ Proceso histórico: Línea del tiempo, hechos principales. ",../Materials/Historia/SEMANA 6
+Historia,7,INCAS,"Economía – Sociedad.
+Política.
+Aportes culturales.",../Materials/Historia/SEMANA 7
+Historia,8,VIRREINATO,"Características: economía y sociedad.
+Características: política y cultura.
+Los principales virreyes y su obra.",../Materials/Historia/SEMANA 8
+Historia,9,REVOLUCIONES INDUSTRIALES,,../Materials/Historia/SEMANA 9
+Historia,10,CORRIENTES LIBERTADORAS,,../Materials/Historia/SEMANA 10
+Historia,11,PRIMER MILITARISMO I: REPÚBLICA TEMPRANA,,../Materials/Historia/SEMANA 11
+Historia,12,PRIMER MILITARISMO II: PROSPERIDAD FALAZ,,../Materials/Historia/SEMANA 12
+Historia,13,GUERRA DEL SALITRE,,../Materials/Historia/SEMANA 13
+Historia,14,REPÚBLICA ARISTOCRÁTICA,,../Materials/Historia/SEMANA 14
+Historia,15,GUERRA FRÍA,,../Materials/Historia/SEMANA 15
+Historia,16,GOBIERNO DE LAS FUERZAS ARMADAS,,../Materials/Historia/SEMANA 16
+Historia,17,NUEVO ORDEN MUNDIAL,,../Materials/Historia/SEMANA 17
+Lenguaje y Literatura,1,SÍLABA,"La sílaba, clases (sílaba tónica y átona).
+Secuencia vocálica: diptongo, triptongo y hiato.
+Ejercicios de segmentación de palabras en sílabas.",../Materials/Lenguaje y Literatura/SEMANA 1
+Lenguaje y Literatura,2,ACENTUACIÓN ESCRITA,"Reconocimiento de palabras agudas, graves, esdrújulas y sobresdrújulas.
+Ejercicios de reglas de acentuación general.
+Ejercicios de reglas de acentuación especial.",../Materials/Lenguaje y Literatura/SEMANA 2
+Lenguaje y Literatura,3,USO DE MAYÚSCULAS,"Uso de mayúsculas en antropónimos y topónimos.
+Uso de mayúsculas en instituciones, festividades, épocas, obras, etc.
+Uso de las minúsculas (días, meses, estaciones, gentilicios, cargos, etc.).",../Materials/Lenguaje y Literatura/SEMANA 3
+Lenguaje y Literatura,4,SIGNOS DE PUNTUACIÓN,"Uso de la coma.
+Uso del punto y coma.
+Uso de los dos puntos.",../Materials/Lenguaje y Literatura/SEMANA 4
+Lenguaje y Literatura,5,CATEGORÍAS NOMINALES,"Reconocimiento del sustantivo y usos (algunos casos de pluralización).
+Reconocimiento del adjetivo y usos (algunos casos de concordancia con el sustantivo).
+Reconocimiento de determinantes y pronombres, y usos (cacofonía con el artículo “la”, laísmo, leísmo y loísmo).",../Materials/Lenguaje y Literatura/SEMANA 5
+Lenguaje y Literatura,6,VERBO,"Reconocimiento de los accidentes del verbo: número, persona, modo, aspecto y tiempo.
+Clasificación morfológica del verbo: regulares, irregulares e impersonales.
+Usos del verbo (conjugación de verbos regulares e irregulares).",../Materials/Lenguaje y Literatura/SEMANA 6
+Lenguaje y Literatura,7,CATEGORÍAS INVARIABLES,"Reconocimiento del adverbio y usos (falsa concordancia y los enlazados con el sufijo –mente).
+Reconocimiento de la preposición y usos (error de régimen y dequeísmo).
+Clasificación de la conjunción.",../Materials/Lenguaje y Literatura/SEMANA 7
+Lenguaje y Literatura,8,SUJETO,"Reconocimiento del sujeto.
+Estructura del sujeto: núcleo, aposición, MD y MI.
+Clases de sujeto.",../Materials/Lenguaje y Literatura/SEMANA 8
+Lenguaje y Literatura,9,PREDICADO,,../Materials/Lenguaje y Literatura/SEMANA 9
+Lenguaje y Literatura,10,ORACIÓN COMPUESTA,,../Materials/Lenguaje y Literatura/SEMANA 10
+Lenguaje y Literatura,11,CONCORDANCIA GRAMATICAL,,../Materials/Lenguaje y Literatura/SEMANA 11
+Lenguaje y Literatura,12,LITERATURA UNIVERSAL,,../Materials/Lenguaje y Literatura/SEMANA 12
+Lenguaje y Literatura,13,LITERATURA ESPAÑOLA,,../Materials/Lenguaje y Literatura/SEMANA 13
+Lenguaje y Literatura,14,LITERATURA HISPANOAMERICANA I,,../Materials/Lenguaje y Literatura/SEMANA 14
+Lenguaje y Literatura,15,LITERATURA HISPANOAMERICANA II,,../Materials/Lenguaje y Literatura/SEMANA 15
+Lenguaje y Literatura,16,LITERATURA PERUANA I,,../Materials/Lenguaje y Literatura/SEMANA 16
+Lenguaje y Literatura,17,LITERATURA PERUANA II,,../Materials/Lenguaje y Literatura/SEMANA 17
+Filosofia y Logica,1,INTRODUCCIÓN A LA FILOSOFÍA,"Etimología de Filosofía. Actitudes humanas.
+Características de la filosofía.
+Disciplinas filosóficas.",../Materials/Filosofia y Logica/SEMANA 1
+Filosofia y Logica,2,PERIODO COSMOLÓGICO,"Monistas: Thales, Anaxímenes, Anaximandro, Pitágoras, Heráclito, Parménides.
+Pluralistas: Empédocles. Anaxágoras, Demócrito",../Materials/Filosofia y Logica/SEMANA 2
+Filosofia y Logica,3,PERIODO ANTROPOLÓGICO,"Protágoras: Virtud, Relativismo. 
+Sócrates: Virtud, Mayéutica.",../Materials/Filosofia y Logica/SEMANA 3
+Filosofia y Logica,4,PERIODO ONTOLÓGICO I PLATÓN,"Teoría del mundo de las ideas.
+Teoría del conocimiento, y el Estado Ideal.",../Materials/Filosofia y Logica/SEMANA 4
+Filosofia y Logica,5,PERIODO ONTOLÓGICO II ARISTÓTELES,"Teoría del Ser, la potencia y el acto, las causas.
+Teoría ética, el justo medio. ",../Materials/Filosofia y Logica/SEMANA 5
+Filosofia y Logica,6,FILOSOFÍA MODERNA – RACIONALISMO – DESCARTES,"Reglas del método, la duda metódica.
+Tipos de ideas, y substancias, dualismo.",../Materials/Filosofia y Logica/SEMANA 6
+Filosofia y Logica,7,FILOSOFÍA MODERNA – EMPIRISMO,"Locke: Teoría de la tabula rasa, tipos de experiencia y cualidades. Ideas políticas.
+Hume: Teoría de las percepciones, impresiones e ideas, crítica a la causalidad.",../Materials/Filosofia y Logica/SEMANA 7
+Filosofia y Logica,8,CRITICISMO – KANT,"Teoría del conocimiento: Fenómeno – Noúmeno. Tipos de juicios.
+Teoría moral: Buena voluntad, imperativos categóricos e hipotéticos",../Materials/Filosofia y Logica/SEMANA 8
+Filosofia y Logica,9,FILOSOFÍA SIGLO XIX – I,,../Materials/Filosofia y Logica/SEMANA 9
+Filosofia y Logica,10,FILOSOFÍA SIGLO XIX – II,,../Materials/Filosofia y Logica/SEMANA 10
+Filosofia y Logica,11,FILOSOFÍA SIGLO XX,,../Materials/Filosofia y Logica/SEMANA 11
+Filosofia y Logica,12,GNOSEOLOGÍA,,../Materials/Filosofia y Logica/SEMANA 12
+Filosofia y Logica,13,EPISTEMOLOGÍA,,../Materials/Filosofia y Logica/SEMANA 13
+Filosofia y Logica,14,AXIOLOGÍA,,../Materials/Filosofia y Logica/SEMANA 14
+Filosofia y Logica,15,ÉTICA,,../Materials/Filosofia y Logica/SEMANA 15
+Filosofia y Logica,16,LÓGICA CONCEPTOS BÁSICOS,,../Materials/Filosofia y Logica/SEMANA 16
+Filosofia y Logica,17,LÓGICA PROPOSICIONAL,,../Materials/Filosofia y Logica/SEMANA 17
+Economia y Civica,1,NECESIDADES Y BIENES,"Definición, características y clasificación de las necesidades.
+Clasificación de los bienes económicos.",../Materials/Economia y Civica/SEMANA 1
+Economia y Civica,2,PROCESO ECONÓMICO Y PRODUCCIÓN," Proceso económico: Definición y etapas.
+ Producción: Función de producción, productividad (media y 
+ marginal).
+ Ley de rendimientos decrecientes.",../Materials/Economia y Civica/SEMANA 2
+Economia y Civica,3,TRABAJO Y CAPITAL," Trabajo: clases de salario.
+ población: PEA (oferta laboral).
+ Clasificación del capital (según el enfoque de los neoclásicos).",../Materials/Economia y Civica/SEMANA 3
+Economia y Civica,4,MODELOS DE MERCADO,"Competencia perfecta: características.
+Competencia imperfecta. Características 
+Monopolios y monopolios de coalición. Oligopolios, competencia monopolística.",../Materials/Economia y Civica/SEMANA 4
+Economia y Civica,5,DEMANDA Y ELASTICIDAD DE LA DEMANDA," ¿Qué es la demanda?, factores de la demanda.
+Ley de la demanda. Variación de la demanda y la cantidad demandada. 
+Elasticidad precio de la demanda, tipos de elasticidades.",../Materials/Economia y Civica/SEMANA 5
+Economia y Civica,6,OFERTA Y EQUILIBRIO DE MERCADO," ¿Qué es la oferta?, factores de la oferta.
+Ley de la oferta. Variación de la oferta y la cantidad ofertada. 
+Equilibrio de Mercado y desequilibrio de mercado: ley de la oferta y la demanda. ",../Materials/Economia y Civica/SEMANA 6
+Economia y Civica,7,DINERO E INFLACIÓN," Dinero: Funciones, valores, oferta monetaria.
+ Inflación: causas, Clases y consecuencias.",../Materials/Economia y Civica/SEMANA 7
+Economia y Civica,8,SISTEMA FINANCIERO,"Intermediación financiera directa e indirecta. Mercado de valores y SMV.
+Sistema bancario: (TREA Y TCEA).
+Operaciones bancarias activas (descuento bancario, leasing, sobregiro bancario) operaciones bancarias pasivas (deposito a la vista, depósito de ahorro, depósito a plazo)",../Materials/Economia y Civica/SEMANA 8
+Economia y Civica,9,SECTOR PÚBLICO,,../Materials/Economia y Civica/SEMANA 9
+Economia y Civica,10,SECTOR EXTERNO,,../Materials/Economia y Civica/SEMANA 10
+Economia y Civica,11,BALANZA DE PAGOS,,../Materials/Economia y Civica/SEMANA 11
+Economia y Civica,12,GLOBALIZACIÓN E INTEGRACIÓN ECONÓMICA,,../Materials/Economia y Civica/SEMANA 12
+Economia y Civica,13,AGREGADOS ECONÓMICOS E INDICADORES,,../Materials/Economia y Civica/SEMANA 13
+Economia y Civica,14,DOCTRINAS ECONÓMICAS,,../Materials/Economia y Civica/SEMANA 14
+Economia y Civica,15,DERECHOS CONSTITUCIONALES Y CIUDADANÍA,,../Materials/Economia y Civica/SEMANA 15
+Economia y Civica,16,PODER LEGISLATIVO Y EJECUTIVO,,../Materials/Economia y Civica/SEMANA 16
+Economia y Civica,17,ORGANISMOS CONSTITUCIONALES AUTÓNOMOS,,../Materials/Economia y Civica/SEMANA 17

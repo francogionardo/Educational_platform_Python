@@ -1,15 +1,12 @@
 # Clases.py
 
 import subprocess
-from PyQt5.QtWidgets import (
-    QWidget, QTableWidgetItem, QPushButton, QHBoxLayout, QMessageBox
-)  # Ensure all required PyQt5 components are imported here
+from PyQt5.QtWidgets import QWidget, QHBoxLayout, QMessageBox
 from .UIComponents import UIComponents
 from .CourseData import CourseData
+from .DateSearch import search_by_date
+from .ResultTablePopulator import populate_result_table
 import os
-import glob
-
-
 
 class Clases(QWidget):
     def __init__(self):
@@ -33,8 +30,8 @@ class Clases(QWidget):
         self.ui.course_select.currentIndexChanged.connect(self.populate_weeks)
         self.ui.search_course_week_button.clicked.connect(self.search_by_course_and_week)
         self.ui.date_checkbox.stateChanged.connect(self.toggle_calendar)
-        self.ui.search_date_button.clicked.connect(self.search_by_date)
-        
+        self.ui.search_date_button.clicked.connect(lambda: search_by_date(self))  # Use search_by_date function
+
     def populate_courses(self):
         """ Populate the course combo box with available courses. """
         for course in self.course_data_manager.course_data.keys():
@@ -63,52 +60,7 @@ class Clases(QWidget):
         self.ui.result_table.setRowCount(0)
         for date, data in self.course_data_manager.video_data.items():
             if data['week'] == int(week.split()[1]) and course in data['label']:
-                self.populate_result_table(date, data)
-
-    def search_by_date(self):
-        date_selected = self.ui.date_select.selectedDate().toString("yyyyMMdd")
-        self.ui.result_table.setRowCount(0)
-        video_files = glob.glob("Videos/*.mp4")
-        matched_videos = [video for video in video_files if date_selected in video]
-
-        if matched_videos:
-            for video in matched_videos:
-                # Retrieve the Label information for this date
-                label_info = self.course_data_manager.video_data.get(date_selected, {}).get('label', "Horario no disponible")
-
-                row_position = self.ui.result_table.rowCount()
-                self.ui.result_table.insertRow(row_position)
-                self.ui.result_table.setItem(row_position, 0, QTableWidgetItem(date_selected))
-                self.ui.result_table.setItem(row_position, 1, QTableWidgetItem(label_info))  # Assign Label info to "Horario"
-                self.ui.result_table.setItem(row_position, 2, QTableWidgetItem("Tema no especificado"))
-
-                # Add play button
-                play_button = QPushButton("Reproducir")
-                play_button.clicked.connect(lambda ch, path=video: self.play_video_with_potplayer(path))
-                self.ui.result_table.setCellWidget(row_position, 3, play_button)
-        else:
-            QMessageBox.information(self, "Resultado", f"No se encontraron videos para la fecha {date_selected}.")
-
-
-    def populate_result_table(self, date, data):
-        label = data['label']
-        week_number = data['week']
-        video_files = glob.glob("Videos/*.mp4")
-        for video in video_files:
-            if video.split('_')[0][3:] == date:
-                course_times = label.split('\n')
-                for ct in course_times:
-                    course_name = ct.split(":")[0]
-                    topic_list = self.course_data_manager.course_data.get(course_name, [])
-                    topic = topic_list[week_number - 1] if week_number <= len(topic_list) else "Tema no encontrado"
-                    row_position = self.ui.result_table.rowCount()
-                    self.ui.result_table.insertRow(row_position)
-                    self.ui.result_table.setItem(row_position, 0, QTableWidgetItem(date))
-                    self.ui.result_table.setItem(row_position, 1, QTableWidgetItem(ct))
-                    self.ui.result_table.setItem(row_position, 2, QTableWidgetItem(topic))
-                    play_button = QPushButton("Reproducir")
-                    play_button.clicked.connect(lambda ch, path=video: self.play_video_with_potplayer(path))
-                    self.ui.result_table.setCellWidget(row_position, 3, play_button)
+                populate_result_table(self, date, data)  # Use populate_result_table function
 
     def play_video_with_potplayer(self, video_path):
         potplayer_path = r"E:\Programs\PotPlayer\PotPlayerMini64.exe"

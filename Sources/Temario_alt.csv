@@ -1,0 +1,222 @@
+Curso,Week,Tema,Path
+Algebra,1,NÚMEROS COMPLEJOS,../Materials/Algebra/SEMANA 1
+Algebra,2,ECUACIONES POLINOMIALES,../Materials/Algebra/SEMANA 2
+Algebra,3,INECUACIONES,../Materials/Algebra/SEMANA 3
+Algebra,4,EXPRESIONES CON VALOR ABSOLUTO E IRRACIONALES,../Materials/Algebra/SEMANA 4
+Algebra,5,FUNCIONES REALES Y GRAFICA DE FUNCIONES I,../Materials/Algebra/SEMANA 5
+Algebra,6,GRAFICA DE FUNCIONES II,../Materials/Algebra/SEMANA 6
+Algebra,7,GRAFICA DE RELACIONES,../Materials/Algebra/SEMANA 7
+Algebra,8,ALGEBRA DE FUNCIONES,../Materials/Algebra/SEMANA 8
+Algebra,9,FUNCIÓN INVERSA,../Materials/Algebra/SEMANA 9
+Algebra,10,FUNCION EXPONENCIAL Y LOGARÍTMICA,../Materials/Algebra/SEMANA 10
+Algebra,11,SUCESIONES REALES,../Materials/Algebra/SEMANA 11
+Algebra,12,SERIES,../Materials/Algebra/SEMANA 12
+Algebra,13,MATRICES,../Materials/Algebra/SEMANA 13
+Algebra,14,DETERMINANTE,../Materials/Algebra/SEMANA 14
+Algebra,15,MATRIZ INVERSA,../Materials/Algebra/SEMANA 15
+Algebra,16,SISTEMA DE ECUACIONES,../Materials/Algebra/SEMANA 16
+Algebra,17,PROGRAMACIÓN LINEAL,../Materials/Algebra/SEMANA 17
+Aritmetica,1,RAZONES Y PROPORCIONES,../Materials/Aritmetica/SEMANA 1
+Aritmetica,2,MAGNITUDES PROPORCIONALES,../Materials/Aritmetica/SEMANA 2
+Aritmetica,3,PROMEDIOS Y TANTO POR CIENTO,../Materials/Aritmetica/SEMANA 3
+Aritmetica,4,REGLA DE MEZCLA,../Materials/Aritmetica/SEMANA 4
+Aritmetica,5,REGLA DE INTERES,../Materials/Aritmetica/SEMANA 5
+Aritmetica,6,REGLA DE DESCUENTO,../Materials/Aritmetica/SEMANA 6
+Aritmetica,7,TEORIA DE CONJUNTOS,../Materials/Aritmetica/SEMANA 7
+Aritmetica,8,NUMERACIÓN,../Materials/Aritmetica/SEMANA 8
+Aritmetica,9,OPERACIONES FUNDAMENTALES,../Materials/Aritmetica/SEMANA 9
+Aritmetica,10,SUCESIONES,../Materials/Aritmetica/SEMANA 10
+Aritmetica,11,TEORIA DE DIVISIBILIDAD,../Materials/Aritmetica/SEMANA 11
+Aritmetica,12,NUMEROS PRIMOS Y COMPUESTOS,../Materials/Aritmetica/SEMANA 12
+Aritmetica,13,MAXIMO COMUN DIVISOR Y MINIMO COMUN MULTIPLO,../Materials/Aritmetica/SEMANA 13
+Aritmetica,14,NUMEROS RACIONALES,../Materials/Aritmetica/SEMANA 14
+Aritmetica,15,ESTADÍSTICA,../Materials/Aritmetica/SEMANA 15
+Aritmetica,16,ANALISIS COMBINATORIO,../Materials/Aritmetica/SEMANA 16
+Aritmetica,17,TEORÍA DE PROBABILIDADES,../Materials/Aritmetica/SEMANA 17
+Geografia,1,CARTOGRAFÍA,../Materials/Geografia/SEMANA 1
+Geografia,2,CALENTAMIENTO GLOBAL,../Materials/Geografia/SEMANA 2
+Geografia,3,CLIMA DEL PERÚ,../Materials/Geografia/SEMANA 3
+Geografia,4,RELIEVE COSTERO,../Materials/Geografia/SEMANA 4
+Geografia,5,RELIEVE ANDINO Y AMAZONICO,../Materials/Geografia/SEMANA 5
+Geografia,6,MANEJO DE CUENCAS,../Materials/Geografia/SEMANA 6
+Geografia,7,VERTIENTES HIDROGRAFICAS,../Materials/Geografia/SEMANA 7
+Geografia,8,MAR PERUANO,../Materials/Geografia/SEMANA 8
+Geografia,9,RECURSOS NATURALES,../Materials/Geografia/SEMANA 9
+Geografia,10,OCHO REGIONES NATURALES,../Materials/Geografia/SEMANA 10
+Geografia,11,ONCE ECORREGIONES,../Materials/Geografia/SEMANA 11
+Geografia,12,AREAS NATURALES PROTEGIDAS,../Materials/Geografia/SEMANA 12
+Geografia,13,FENÓMENOS Y DESASTRES NATURALES,../Materials/Geografia/SEMANA 13
+Geografia,14,POBLACIÓN PERUANA I,../Materials/Geografia/SEMANA 14
+Geografia,15,POBLACIÓN PERUANA II,../Materials/Geografia/SEMANA 15
+Geografia,16,ACTIVIDADES ECONOMICAS,../Materials/Geografia/SEMANA 16
+Geografia,17,GEOGRAFIA POLÍTICA,../Materials/Geografia/SEMANA 17
+Fisica,1,"ANÁLISIS DIMENSIONAL, VECTORES Y CINEMÁTICA I",../Materials/Fisica/SEMANA 1
+Fisica,2,CINEMÁTICA II,../Materials/Fisica/SEMANA 2
+Fisica,3,ESTÁTICA–DINÁMICA,../Materials/Fisica/SEMANA 3
+Fisica,4,TRABAJO Y ENERGÍA,../Materials/Fisica/SEMANA 4
+Fisica,5,IMPULSO Y CANTIDAD DE MOVIMIENTO,../Materials/Fisica/SEMANA 5
+Fisica,6,GRAVITACIÓN UNIVERSAL,../Materials/Fisica/SEMANA 6
+Fisica,7,MOVIMIENTO ARMÓNICO SIMPLE,../Materials/Fisica/SEMANA 7
+Fisica,8,ONDAS MECÁNICAS,../Materials/Fisica/SEMANA 8
+Fisica,9,HIDROSTÁTICA–FENÓMENOS TÉRMICOS,../Materials/Fisica/SEMANA 9
+Fisica,10,TERMODINÁMICA,../Materials/Fisica/SEMANA 10
+Fisica,11,ELECTROSTÁTICA I,../Materials/Fisica/SEMANA 11
+Fisica,12,ELECTROSTÁTICA II,../Materials/Fisica/SEMANA 12
+Fisica,13,ELECTRODINÁMICA,../Materials/Fisica/SEMANA 13
+Fisica,14,ELECTROMAGNETISMO I,../Materials/Fisica/SEMANA 14
+Fisica,15,ELECTROMAGNETISMO II,../Materials/Fisica/SEMANA 15
+Fisica,16,ÓPTICA,../Materials/Fisica/SEMANA 16
+Fisica,17,OEM–FÍSICA MODERNA,../Materials/Fisica/SEMANA 17
+Geometria,1,TRIÁNGULOS,../Materials/Geometria/SEMANA 1
+Geometria,2,CONGRUENCIA DE TRIÁNGULOS,../Materials/Geometria/SEMANA 2
+Geometria,3,CUADRILÁTEROS,../Materials/Geometria/SEMANA 3
+Geometria,4,CIRCUNFERENCIA,../Materials/Geometria/SEMANA 4
+Geometria,5,PUNTOS NOTABLES,../Materials/Geometria/SEMANA 5
+Geometria,6,PROPORCIONALIDAD,../Materials/Geometria/SEMANA 6
+Geometria,7,SEMEJANZA,../Materials/Geometria/SEMANA 7
+Geometria,8,RELACIONES MÉTRICAS I,../Materials/Geometria/SEMANA 8
+Geometria,9,RELACIONES MÉTRICAS II,../Materials/Geometria/SEMANA 9
+Geometria,10,ÁREAS DE REGIONES PLANAS I,../Materials/Geometria/SEMANA 10
+Geometria,11,ÁREAS DE REGIONES PLANAS II,../Materials/Geometria/SEMANA 11
+Geometria,12,GEOMETRÍA DEL ESPACIO I,../Materials/Geometria/SEMANA 12
+Geometria,13,GEOMETRÍA DEL ESPACIO II,../Materials/Geometria/SEMANA 13
+Geometria,14,PRISMA Y CILINDRO,../Materials/Geometria/SEMANA 14
+Geometria,15,PIRÁMIDE Y CONO,../Materials/Geometria/SEMANA 15
+Geometria,16,ESFERA Y SUPERFICIE ESFÉRICA,../Materials/Geometria/SEMANA 16
+Geometria,17,TEOREMAS DE PAPPUS GULDIN Y ANALÍTICA,../Materials/Geometria/SEMANA 17
+Quimica,1,MODELO ACTUAL DEL ÁTOMO Y CONFIGURACIÓN ELECTRÓNICA,../Materials/Quimica/SEMANA 1
+Quimica,2,TABLA PERIÓDICA MODERNA,../Materials/Quimica/SEMANA 2
+Quimica,3,ENLACE QUÍMICO,../Materials/Quimica/SEMANA 3
+Quimica,4,HIBRIDACIÓN Y GEOMETRÍA MOLECULAR,../Materials/Quimica/SEMANA 4
+Quimica,5,FUERZAS INTERMOLECULARES,../Materials/Quimica/SEMANA 5
+Quimica,6,NOMENCLATURA INORGÁNICA,../Materials/Quimica/SEMANA 6
+Quimica,7,ESTADO GASEOSO,../Materials/Quimica/SEMANA 7
+Quimica,8,REACCIONES QUÍMICAS,../Materials/Quimica/SEMANA 8
+Quimica,9,ESTEQUIOMETRÍA,../Materials/Quimica/SEMANA 9
+Quimica,10,SOLUCIONES,../Materials/Quimica/SEMANA 10
+Quimica,11,EQUILIBRIO QUÍMICO,../Materials/Quimica/SEMANA 11
+Quimica,12,ÁCIDOS Y BASES,../Materials/Quimica/SEMANA 12
+Quimica,13,CELDAS GALVÁNICA,../Materials/Quimica/SEMANA 13
+Quimica,14,ELECTRÓLISIS,../Materials/Quimica/SEMANA 14
+Quimica,15,QUÍMICA ORGÁNICA: HIDROCARBUROS ALIFÁTICOS Y AROMÁTICOS,../Materials/Quimica/SEMANA 15
+Quimica,16,FUNCIONES OXIGENADAS Y NITROGENADAS,../Materials/Quimica/SEMANA 16
+Quimica,17,ECOLOGÍA Y CONTAMINACIÓN AMBIENTAL,../Materials/Quimica/SEMANA 17
+Raz. Matematico,1,ORDENAMIENTO DE INFORMACIÓN,../Materials/Raz. Matematico/SEMANA 1
+Raz. Matematico,2,ARREGLOS NUMÉRICOS,../Materials/Raz. Matematico/SEMANA 2
+Raz. Matematico,3,PSICOTÉCNICO,../Materials/Raz. Matematico/SEMANA 3
+Raz. Matematico,4,RAZONAMIENTO INDUCTIVO Y DEDUCTIVO,../Materials/Raz. Matematico/SEMANA 4
+Raz. Matematico,5,OPERACIONES MATEMÁTICAS I,../Materials/Raz. Matematico/SEMANA 5
+Raz. Matematico,6,OPERACIONES MATEMÁTICAS II,../Materials/Raz. Matematico/SEMANA 6
+Raz. Matematico,7,LÓGICA PROPOSICIONAL,../Materials/Raz. Matematico/SEMANA 7
+Raz. Matematico,8,LÓGICA DE CLASES,../Materials/Raz. Matematico/SEMANA 8
+Raz. Matematico,9,VERDADES Y MENTIRAS,../Materials/Raz. Matematico/SEMANA 9
+Raz. Matematico,10,PARENTESCOS Y CERTEZAS,../Materials/Raz. Matematico/SEMANA 10
+Raz. Matematico,11,CONTEO DE FIGURAS,../Materials/Raz. Matematico/SEMANA 11
+Raz. Matematico,12,RAZONAMIENTO ABSTRACTO,../Materials/Raz. Matematico/SEMANA 12
+Raz. Matematico,13,PLANTEO DE ECUACIONES I,../Materials/Raz. Matematico/SEMANA 13
+Raz. Matematico,14,PLANTEO DE ECUACIONES II,../Materials/Raz. Matematico/SEMANA 14
+Raz. Matematico,15,SITUACIONES ARITMÉTICAS,../Materials/Raz. Matematico/SEMANA 15
+Raz. Matematico,16,ANÁLISIS E INTERPRETACIÓN DE GRÁFICOS ESTADÍSTICOS,../Materials/Raz. Matematico/SEMANA 16
+Raz. Matematico,17,SUFICIENCIA DE DATOS,../Materials/Raz. Matematico/SEMANA 17
+Raz. Verbal,1,DEFINICIONES Y PRECISIÓN LÉXICA,../Materials/Raz. Verbal/SEMANA 1
+Raz. Verbal,2,ANTONIMIA CONTEXTUAL,../Materials/Raz. Verbal/SEMANA 2
+Raz. Verbal,3,ANALOGÍAS,../Materials/Raz. Verbal/SEMANA 3
+Raz. Verbal,4,CONECTORES LÓGICOS I,../Materials/Raz. Verbal/SEMANA 4
+Raz. Verbal,5,CONECTORES LÓGICOS II,../Materials/Raz. Verbal/SEMANA 5
+Raz. Verbal,6,PRIMERA PRÁCTICA DE REFORZAMIENTO,../Materials/Raz. Verbal/SEMANA 6
+Raz. Verbal,7,JERARQUÍA TEXTUAL,../Materials/Raz. Verbal/SEMANA 7
+Raz. Verbal,8,MÉTODO Y TÉCNICAS DE LECTURA,../Materials/Raz. Verbal/SEMANA 8
+Raz. Verbal,9,TIPOS DE PREGUNTAS DE COMPRENSIÓN LECTORA I,../Materials/Raz. Verbal/SEMANA 9
+Raz. Verbal,10,TIPOS DE PREGUNTAS DE COMPRENSIÓN LECTORA II,../Materials/Raz. Verbal/SEMANA 10
+Raz. Verbal,11,SEGUNDA PRÁCTICA DE REFORZAMIENTO,../Materials/Raz. Verbal/SEMANA 11
+Raz. Verbal,12,TEXTOS CONTINUOS Y DISCONTINUOS,../Materials/Raz. Verbal/SEMANA 12
+Raz. Verbal,13,INFORMACIÓN ELIMINADA,../Materials/Raz. Verbal/SEMANA 13
+Raz. Verbal,14,PLAN DE REDACCIÓN Y COHESIÓN TEXTUAL,../Materials/Raz. Verbal/SEMANA 14
+Raz. Verbal,15,INCLUSIÓN DE ENUNCIADOS,../Materials/Raz. Verbal/SEMANA 15
+Raz. Verbal,16,TERCERA PRÁCTICA DE REFORZAMIENTO,../Materials/Raz. Verbal/SEMANA 16
+Raz. Verbal,17,CUARTA PRÁCTICA DE REFORZAMIENTO,../Materials/Raz. Verbal/SEMANA 17
+Trigonometria,1,RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS,../Materials/Trigonometria/SEMANA 1
+Trigonometria,2,RAZONES TRIGONOMÉTRICAS DE UN ÁNGULO EN POSICIÓN NORMAL,../Materials/Trigonometria/SEMANA 2
+Trigonometria,3,IDENTIDADES TRIGONOMÉTRICAS I,../Materials/Trigonometria/SEMANA 3
+Trigonometria,4,IDENTIDADES TRIGONOMÉTRICAS II,../Materials/Trigonometria/SEMANA 4
+Trigonometria,5,CIRCUNFERENCIA TRIGONOMÉTRICA I,../Materials/Trigonometria/SEMANA 5
+Trigonometria,6,CIRCUNFERENCIA TRIGONOMÉTRICA II,../Materials/Trigonometria/SEMANA 6
+Trigonometria,7,FUNCIONES TRIGONOMÉTRICAS I,../Materials/Trigonometria/SEMANA 7
+Trigonometria,8,FUNCIONES TRIGONOMÉTRICAS II,../Materials/Trigonometria/SEMANA 8
+Trigonometria,9,FUNCIONES INVERSAS I,../Materials/Trigonometria/SEMANA 9
+Trigonometria,10,FUNCIONES INVERSAS II,../Materials/Trigonometria/SEMANA 10
+Trigonometria,11,ECUACIONES TRIGONOMÉTRICAS,../Materials/Trigonometria/SEMANA 11
+Trigonometria,12,RESOLUCIÓN DE TRIÁNGULOS OBLICUÁNGULOS,../Materials/Trigonometria/SEMANA 12
+Trigonometria,13,CÓNICAS I,../Materials/Trigonometria/SEMANA 13
+Trigonometria,14,CÓNICAS II,../Materials/Trigonometria/SEMANA 14
+Trigonometria,15,CÓNICAS III,../Materials/Trigonometria/SEMANA 15
+Trigonometria,16,TRANSFORMACIÓN DE COORDENADAS,../Materials/Trigonometria/SEMANA 16
+Trigonometria,17,COORDENADAS POLARES,../Materials/Trigonometria/SEMANA 17
+Historia,1,COMUNIDAD PRIMITIVA,../Materials/Historia/SEMANA 1
+Historia,2,COMUNIDAD PRIMITIVA EN EL PERÚ,../Materials/Historia/SEMANA 2
+Historia,3,ROMA,../Materials/Historia/SEMANA 3
+Historia,4,FORMATIVO,../Materials/Historia/SEMANA 4
+Historia,5,PRIMER DESARROLLO REGIONAL,../Materials/Historia/SEMANA 5
+Historia,6,FEUDALISMO,../Materials/Historia/SEMANA 6
+Historia,7,INCAS,../Materials/Historia/SEMANA 7
+Historia,8,VIRREINATO,../Materials/Historia/SEMANA 8
+Historia,9,REVOLUCIONES INDUSTRIALES,../Materials/Historia/SEMANA 9
+Historia,10,CORRIENTES LIBERTADORAS,../Materials/Historia/SEMANA 10
+Historia,11,PRIMER MILITARISMO I: REPÚBLICA TEMPRANA,../Materials/Historia/SEMANA 11
+Historia,12,PRIMER MILITARISMO II: PROSPERIDAD FALAZ,../Materials/Historia/SEMANA 12
+Historia,13,GUERRA DEL SALITRE,../Materials/Historia/SEMANA 13
+Historia,14,REPÚBLICA ARISTOCRÁTICA,../Materials/Historia/SEMANA 14
+Historia,15,GUERRA FRÍA,../Materials/Historia/SEMANA 15
+Historia,16,GOBIERNO DE LAS FUERZAS ARMADAS,../Materials/Historia/SEMANA 16
+Historia,17,NUEVO ORDEN MUNDIAL,../Materials/Historia/SEMANA 17
+Lenguaje y Literatura,1,SÍLABA,../Materials/Lenguaje y Literatura/SEMANA 1
+Lenguaje y Literatura,2,ACENTUACIÓN ESCRITA,../Materials/Lenguaje y Literatura/SEMANA 2
+Lenguaje y Literatura,3,USO DE MAYÚSCULAS,../Materials/Lenguaje y Literatura/SEMANA 3
+Lenguaje y Literatura,4,SIGNOS DE PUNTUACIÓN,../Materials/Lenguaje y Literatura/SEMANA 4
+Lenguaje y Literatura,5,CATEGORÍAS NOMINALES,../Materials/Lenguaje y Literatura/SEMANA 5
+Lenguaje y Literatura,6,VERBO,../Materials/Lenguaje y Literatura/SEMANA 6
+Lenguaje y Literatura,7,CATEGORÍAS INVARIABLES,../Materials/Lenguaje y Literatura/SEMANA 7
+Lenguaje y Literatura,8,SUJETO,../Materials/Lenguaje y Literatura/SEMANA 8
+Lenguaje y Literatura,9,PREDICADO,../Materials/Lenguaje y Literatura/SEMANA 9
+Lenguaje y Literatura,10,ORACIÓN COMPUESTA,../Materials/Lenguaje y Literatura/SEMANA 10
+Lenguaje y Literatura,11,CONCORDANCIA GRAMATICAL,../Materials/Lenguaje y Literatura/SEMANA 11
+Lenguaje y Literatura,12,LITERATURA UNIVERSAL,../Materials/Lenguaje y Literatura/SEMANA 12
+Lenguaje y Literatura,13,LITERATURA ESPAÑOLA,../Materials/Lenguaje y Literatura/SEMANA 13
+Lenguaje y Literatura,14,LITERATURA HISPANOAMERICANA I,../Materials/Lenguaje y Literatura/SEMANA 14
+Lenguaje y Literatura,15,LITERATURA HISPANOAMERICANA II,../Materials/Lenguaje y Literatura/SEMANA 15
+Lenguaje y Literatura,16,LITERATURA PERUANA I,../Materials/Lenguaje y Literatura/SEMANA 16
+Lenguaje y Literatura,17,LITERATURA PERUANA II,../Materials/Lenguaje y Literatura/SEMANA 17
+Filosofia y Logica,1,INTRODUCCIÓN A LA FILOSOFÍA,../Materials/Filosofia y Logica/SEMANA 1
+Filosofia y Logica,2,PERIODO COSMOLÓGICO,../Materials/Filosofia y Logica/SEMANA 2
+Filosofia y Logica,3,PERIODO ANTROPOLÓGICO,../Materials/Filosofia y Logica/SEMANA 3
+Filosofia y Logica,4,PERIODO ONTOLÓGICO I PLATÓN,../Materials/Filosofia y Logica/SEMANA 4
+Filosofia y Logica,5,PERIODO ONTOLÓGICO II ARISTÓTELES,../Materials/Filosofia y Logica/SEMANA 5
+Filosofia y Logica,6,FILOSOFÍA MODERNA – RACIONALISMO – DESCARTES,../Materials/Filosofia y Logica/SEMANA 6
+Filosofia y Logica,7,FILOSOFÍA MODERNA – EMPIRISMO,../Materials/Filosofia y Logica/SEMANA 7
+Filosofia y Logica,8,CRITICISMO – KANT,../Materials/Filosofia y Logica/SEMANA 8
+Filosofia y Logica,9,FILOSOFÍA SIGLO XIX – I,../Materials/Filosofia y Logica/SEMANA 9
+Filosofia y Logica,10,FILOSOFÍA SIGLO XIX – II,../Materials/Filosofia y Logica/SEMANA 10
+Filosofia y Logica,11,FILOSOFÍA SIGLO XX,../Materials/Filosofia y Logica/SEMANA 11
+Filosofia y Logica,12,GNOSEOLOGÍA,../Materials/Filosofia y Logica/SEMANA 12
+Filosofia y Logica,13,EPISTEMOLOGÍA,../Materials/Filosofia y Logica/SEMANA 13
+Filosofia y Logica,14,AXIOLOGÍA,../Materials/Filosofia y Logica/SEMANA 14
+Filosofia y Logica,15,ÉTICA,../Materials/Filosofia y Logica/SEMANA 15
+Filosofia y Logica,16,LÓGICA CONCEPTOS BÁSICOS,../Materials/Filosofia y Logica/SEMANA 16
+Filosofia y Logica,17,LÓGICA PROPOSICIONAL,../Materials/Filosofia y Logica/SEMANA 17
+Economia y Civica,1,NECESIDADES Y BIENES,../Materials/Economia y Civica/SEMANA 1
+Economia y Civica,2,PROCESO ECONÓMICO Y PRODUCCIÓN,../Materials/Economia y Civica/SEMANA 2
+Economia y Civica,3,TRABAJO Y CAPITAL,../Materials/Economia y Civica/SEMANA 3
+Economia y Civica,4,MODELOS DE MERCADO,../Materials/Economia y Civica/SEMANA 4
+Economia y Civica,5,DEMANDA Y ELASTICIDAD DE LA DEMANDA,../Materials/Economia y Civica/SEMANA 5
+Economia y Civica,6,OFERTA Y EQUILIBRIO DE MERCADO,../Materials/Economia y Civica/SEMANA 6
+Economia y Civica,7,DINERO E INFLACIÓN,../Materials/Economia y Civica/SEMANA 7
+Economia y Civica,8,SISTEMA FINANCIERO,../Materials/Economia y Civica/SEMANA 8
+Economia y Civica,9,SECTOR PÚBLICO,../Materials/Economia y Civica/SEMANA 9
+Economia y Civica,10,SECTOR EXTERNO,../Materials/Economia y Civica/SEMANA 10
+Economia y Civica,11,BALANZA DE PAGOS,../Materials/Economia y Civica/SEMANA 11
+Economia y Civica,12,GLOBALIZACIÓN E INTEGRACIÓN ECONÓMICA,../Materials/Economia y Civica/SEMANA 12
+Economia y Civica,13,AGREGADOS ECONÓMICOS E INDICADORES,../Materials/Economia y Civica/SEMANA 13
+Economia y Civica,14,DOCTRINAS ECONÓMICAS,../Materials/Economia y Civica/SEMANA 14
+Economia y Civica,15,DERECHOS CONSTITUCIONALES Y CIUDADANÍA,../Materials/Economia y Civica/SEMANA 15
+Economia y Civica,16,PODER LEGISLATIVO Y EJECUTIVO,../Materials/Economia y Civica/SEMANA 16
+Economia y Civica,17,ORGANISMOS CONSTITUCIONALES AUTÓNOMOS,../Materials/Economia y Civica/SEMANA 17
