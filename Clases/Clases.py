@@ -1,36 +1,58 @@
 # Clases.py
 
 import subprocess
-from PyQt5.QtWidgets import QWidget, QHBoxLayout, QMessageBox
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QMessageBox
 from .UIComponents import UIComponents
 from .CourseData import CourseData
 from .DateSearch import search_by_date
 from .ResultTablePopulator import populate_result_table
+from .ResultDuplicate import ResultDuplicate  # Nueva importación para la sección de duplicación
 import os
 
 class Clases(QWidget):
     def __init__(self):
         super().__init__()
 
-        # Initialize Course Data and UI Components
+        # Initialize Course Data, UI Components, and Duplicate Results Section
         self.course_data_manager = CourseData()
         self.ui = UIComponents(self)
-        
+        self.duplicate_section = ResultDuplicate(self)  # Sección nueva para la duplicación de resultados
+
         # Load Data
         self.course_data_manager.load_course_data("course_content.txt")
         self.course_data_manager.load_calendar_data("Sources/Calendario.csv")
         self.populate_courses()
+
+        # Main Layout: Contiene tanto los filtros como los resultados y la sección de duplicación
+        main_layout = QVBoxLayout()  # Cambiado a QVBoxLayout para que todo se organice de arriba hacia abajo
         
-        # Main Layout
-        main_layout = QHBoxLayout()
-        main_layout.addWidget(self.ui)  # Make UIComponents fill the available space
+        # Filtros de búsqueda y selección (sección superior)
+        filter_layout = QVBoxLayout()  # Layout para la parte superior con filtros
+        
+        # Agregar los componentes de la interfaz de filtros (esto ya está en UIComponents)
+        filter_layout.addWidget(self.ui.course_select)
+        filter_layout.addWidget(self.ui.week_select)
+        filter_layout.addWidget(self.ui.search_course_week_button)
+        filter_layout.addWidget(self.ui.date_checkbox)
+        filter_layout.addWidget(self.ui.date_select)
+        filter_layout.addWidget(self.ui.search_date_button)
+        
+        # Resultado de búsqueda y duplicación (sección inferior)
+        result_layout = QVBoxLayout()  # Layout para la parte inferior con la tabla de resultados y duplicación
+        result_layout.addWidget(self.ui.result_table)
+        result_layout.addWidget(self.duplicate_section)  # Sección duplicada debajo de la tabla de resultados
+        
+        # Agregar ambos layouts (filtros y resultados) al layout principal
+        main_layout.addLayout(filter_layout)  # Filtros en la parte superior
+        main_layout.addLayout(result_layout)  # Resultados y duplicación en la parte inferior
+        
         self.setLayout(main_layout)
 
-        # Connect Signals
+        # Connect Signals: Aquí conectamos los eventos a los componentes de UI
         self.ui.course_select.currentIndexChanged.connect(self.populate_weeks)
         self.ui.search_course_week_button.clicked.connect(self.search_by_course_and_week)
         self.ui.date_checkbox.stateChanged.connect(self.toggle_calendar)
-        self.ui.search_date_button.clicked.connect(lambda: search_by_date(self))  # Use search_by_date function
+        self.ui.search_date_button.clicked.connect(lambda: search_by_date(self))
 
     def populate_courses(self):
         """ Populate the course combo box with available courses. """
@@ -60,7 +82,7 @@ class Clases(QWidget):
         self.ui.result_table.setRowCount(0)
         for date, data in self.course_data_manager.video_data.items():
             if data['week'] == int(week.split()[1]) and course in data['label']:
-                populate_result_table(self, date, data)  # Use populate_result_table function
+                populate_result_table(self, date, data)  # Usar populate_result_table function
 
     def play_video_with_potplayer(self, video_path):
         potplayer_path = r"E:\Programs\PotPlayer\PotPlayerMini64.exe"
