@@ -1,4 +1,5 @@
 import csv
+import os  # Para acceder a los archivos en los directorios
 import unidecode  # Para eliminar tildes de los nombres
 from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout, QListWidget, QListWidgetItem
 from PyQt5.QtCore import Qt
@@ -75,13 +76,13 @@ class ResultDuplicate(QWidget):
         lines = content.splitlines()
         for line in lines:
             if 'Semana' in line:
-                # Separa por espacios y elimina cualquier carácter no numérico como los ":".
+                # Separa por espacios y elimina cualquier carácter no numérico como los ":"
                 week_str = line.split()[1].rstrip(':')
                 return int(week_str)  # Extrae el número de la semana correctamente
         return None
 
     def search_in_temario(self, cursos, week):
-        """ Busca cada curso y semana en Temario.csv y actualiza la lista de Path. """
+        """ Busca cada curso y semana en Temario.csv y actualiza la lista de Path y contenido. """
         self.path_list.clear()  # Limpiar la lista antes de actualizarla
         found_paths = []  # Variable para almacenar los paths encontrados
 
@@ -91,11 +92,32 @@ class ResultDuplicate(QWidget):
         # Leer el archivo Temario.csv
         with open("Sources/Temario.csv", "r", encoding="utf-8") as file:
             reader = csv.DictReader(file)
-            for row in reader:
-                # Normalizamos los nombres de los cursos en el CSV para comparar sin tildes
-                curso_csv = unidecode.unidecode(row["Curso"])
-                if curso_csv in cursos_normalizados and int(row["Week"]) == week:
-                    found_paths.append(f"{row['Curso']}: {row['Path']}")
+            for curso in cursos:
+                curso_encontrado = False  # Flag para verificar si encontramos el curso
+                curso_normalizado = unidecode.unidecode(curso)
+                for row in reader:
+                    curso_csv = unidecode.unidecode(row["Curso"])
+                    if curso_csv == curso_normalizado and int(row["Week"]) == week:
+                        # Agregamos el curso con su path formateado
+                        found_paths.append(f"Curso: {curso}:\n        Path: {row['Path']}")
+                        
+                        # Ahora mostramos el contenido del directorio asociado al path
+                        folder_path = row['Path']
+                        folder_contents = self.get_folder_contents(folder_path)
+                        
+                        # Agregamos los archivos dentro de la carpeta
+                        if folder_contents:
+                            for item in folder_contents:
+                                found_paths.append(f"            {item}")
+                        else:
+                            found_paths.append("            (La carpeta está vacía o no se pudo acceder)")
+                        
+                        curso_encontrado = True
+                        break  # Una vez encontrado, salimos del ciclo interno
+
+                # Si no se encontró el curso, lo indicamos en la lista
+                if not curso_encontrado:
+                    found_paths.append(f"Curso: {curso} - Path: No encontrado")
 
         # Mostrar los resultados en la lista de Path
         if found_paths:
@@ -105,3 +127,14 @@ class ResultDuplicate(QWidget):
         else:
             self.path_list.addItem("No se encontraron resultados en Temario.csv.")
 
+    def get_folder_contents(self, folder_path):
+        """ Retorna la lista de archivos en el directorio especificado. """
+        try:
+            # Obtener la lista de archivos en el directorio
+            if os.path.exists(folder_path):
+                return os.listdir(folder_path)
+            else:
+                return None
+        except Exception as e:
+            print(f"Error al acceder a {folder_path}: {e}")
+            return None
