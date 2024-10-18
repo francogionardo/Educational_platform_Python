@@ -81,24 +81,21 @@ class ResultDuplicate(QWidget):
         return None
 
     def search_in_temario(self, cursos, week):
-        """ Busca los cursos y la semana en Temario.csv y actualiza la lista de Path. """
+        """ Busca cada curso y semana en Temario.csv y actualiza la lista de Path. """
         self.path_list.clear()  # Limpiar la lista antes de actualizarla
-        found_paths = []
+        found_paths = []  # Variable para almacenar los paths encontrados
+
+        # Normalizamos los nombres de los cursos quitando tildes para la búsqueda
+        cursos_normalizados = [unidecode.unidecode(curso) for curso in cursos]
 
         # Leer el archivo Temario.csv
         with open("Sources/Temario.csv", "r", encoding="utf-8") as file:
             reader = csv.DictReader(file)
-
-            # Iterar sobre los cursos extraídos y buscar en el CSV
-            for curso in cursos:
-                curso_normalizado = unidecode.unidecode(curso)  # Normalizamos el nombre del curso quitando tildes
-
-                print(f"Buscando curso: {curso_normalizado}, Semana: {week}")  # Para depuración
-
-                for row in reader:
-                    curso_csv = unidecode.unidecode(row["Curso"])
-                    if curso_csv == curso_normalizado and int(row["Week"]) == week:
-                        found_paths.append(row["Path"])
+            for row in reader:
+                # Normalizamos los nombres de los cursos en el CSV para comparar sin tildes
+                curso_csv = unidecode.unidecode(row["Curso"])
+                if curso_csv in cursos_normalizados and int(row["Week"]) == week:
+                    found_paths.append(f"{row['Curso']}: {row['Path']}")
 
         # Mostrar los resultados en la lista de Path
         if found_paths:
@@ -107,3 +104,4 @@ class ResultDuplicate(QWidget):
                 self.path_list.addItem(item)
         else:
             self.path_list.addItem("No se encontraron resultados en Temario.csv.")
+
