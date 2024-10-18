@@ -23,11 +23,13 @@ class ResultDuplicate(QWidget):
 
     def update_content(self, content):
         """ Actualiza la sección duplicada con nuevo contenido y busca en Temario.csv. """
-        self.label.setText(content)
+        # Eliminar contenido duplicado antes de mostrarlo
+        filtered_content = self.remove_duplicate_content(content)
+        self.label.setText(filtered_content)
 
-        # Extraer la semana y los cursos del contenido
-        cursos = self.extract_courses_from_content(content)
-        week = self.extract_week_from_content(content)
+        # Extraer la semana y los cursos del contenido filtrado
+        cursos = self.extract_courses_from_content(filtered_content)
+        week = self.extract_week_from_content(filtered_content)
 
         # Imprimir los cursos y la semana extraídos para depuración
         print(f"Cursos extraídos: {cursos}")
@@ -36,11 +38,29 @@ class ResultDuplicate(QWidget):
         if cursos and week:
             self.search_in_temario(cursos, week)
 
+    def remove_duplicate_content(self, content):
+        """ Elimina cursos y semanas duplicados del contenido. """
+        lines = content.splitlines()
+        seen_courses = set()
+        filtered_lines = []
+
+        for line in lines:
+            if 'Semana' in line or ('De' in line and ':' in line):
+                # Identificar el curso en la línea que contiene el horario
+                course = line.split(':')[0].strip()
+                if course not in seen_courses:
+                    seen_courses.add(course)
+                    filtered_lines.append(line)  # Añadir curso único
+            else:
+                filtered_lines.append(line)  # Añadir otras líneas que no son duplicadas
+
+        return '\n'.join(filtered_lines)
+
     def extract_courses_from_content(self, content):
         """ Extrae los nombres de los cursos del contenido duplicado. """
         lines = content.splitlines()
         cursos = []
-        
+
         # Recorremos las líneas para encontrar las que tengan un horario (y por lo tanto un curso)
         for line in lines:
             if ' De ' in line:  # Esta línea contiene un curso seguido de un horario
